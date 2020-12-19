@@ -46,17 +46,17 @@ class Layout extends Component {
             <Helmet
               title={data.site.siteMetadata.title}
               meta={[
-                { name: 'description', content: 'Solid State' },
-                { name: 'keywords', content: 'site, web' },
+                { name: 'description', content: 'Nilukshi Nonis' },
+                { name: 'keywords', content: 'site, product design, ux design, berlin' },
               ]}
-            >
+            >className="major"
               <html lang="en" />
             </Helmet>
             <div
               className={isPreloaded ? ' main-body  is-preload' : ' main-body'}
             >
               <div id="page-wrapper">
-                <SideBar fullMenu={fullMenu} />
+                <SideBar fullMenu={fullMenu} title={data.site.siteMetadata.title}/>
                 {children}
                 <Footer />
               </div>

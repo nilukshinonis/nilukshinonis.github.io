@@ -34,16 +34,16 @@ const IndexPage = () => (
     <section id="wrapper">
       <section id="one" className="wrapper spotlight style1">
         <div className="inner">
-          <a href="/#" className="image">
+          <a href="/about" className="image">
             <img src={frame_1} alt="" />
           </a>
           <div className="content">
             <h2 className="major">I love to explore</h2>
             <p>
-              Some call me ‘Pettah Ferrot’.
+              Some call me ‘Pettah Ferret’.
             </p>
-            <a href="/#" className="special">
-              Learn more
+            <a href="/about" className="special">
+              Know about me
             </a>
           </div>
         </div>
@@ -51,7 +51,7 @@ const IndexPage = () => (
 
       <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
-          <a href="/#" className="image">
+          <a href="/projects" className="image">
             <img src={frame_2} alt="" />
           </a>
           <div className="content">
@@ -59,7 +59,7 @@ const IndexPage = () => (
             <p>
               Design has to be honest, delightful and less impactful to the environment.
             </p>
-            <a href="/#" className="special">
+            <a href="/projects" className="special">
               See my work
             </a>
           </div>

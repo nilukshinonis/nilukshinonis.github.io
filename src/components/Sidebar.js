@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import Nav from './Nav';
 import { Link } from 'gatsby';
-export default function SideBar({ fullMenu }) {
+export default function SideBar({ fullMenu, title }) {
   const [headerOpen, toggleHeader] = useState(false);
   return (
     <>
       <header id="header" className={`${fullMenu ? '' : 'alt'}`}>
         <h1>
-          <Link to="/">Solid State</Link>
+          <Link to="/">{title}</Link>
         </h1>
 
         <nav>
