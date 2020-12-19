@@ -6,7 +6,7 @@ export default function Footer() {
         <ul className="copyright">
           <li>&copy; Nilukshi Nonis</li>
           <li>Stock images from <a href="https://unsplash.com/">Unsplash</a></li>
-          <li>Designs inspired by <a hred="https://html5up.net.com/">HTML5UP</a></li>
+          <li>Designs inspired by <a href="https://html5up.net.com/">HTML5UP</a></li>
         </ul>
       </div>
     </section>

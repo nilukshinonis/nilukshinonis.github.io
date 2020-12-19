@@ -1,7 +1,7 @@
 module.exports = {
   siteTitle: 'Nilukshi Nonis', // <title>
   manifestName: 'Nilukshi Nonis',
-  manifestShortName: 'Landing', // max 12 characters
+  manifestShortName: 'NN', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',

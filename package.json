@@ -1,14 +1,14 @@
 {
-  "name": "gatsby-starter-solidstate",
+  "name": "nilukshinonis.com",
   "version": "0.0.1",
-  "description": "Gatsby.js V2 starter template based on Solid State by HTML5 UP",
+  "description": "Portfolio of Nilukshi Nonis",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-solidstate.git"
+    "url": "git+https://github.com/nilukshinonis/nilukshinonis.github.io.git"
   },
   "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
+    "name": "Nilukshi Nonis",
+    "email": "nonis.nilukshi@gmail.com"
   },
   "dependencies": {
     "gatsby": "^2.20.2",
@@ -38,14 +38,6 @@
     "prettier": "^1.17.0",
     "rimraf": "^3.0.2"
   },
-  "keywords": [
-    "gatsby",
-    "gatsby-starter",
-    "gatsby-starter-solidstate"
-  ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/anubhavsrivastava/gatsby-starter-solidstate/issues"
-  },
-  "homepage": "https://github.com/anubhavsrivastava/gatsby-starter-solidstate#readme"
+  "homepage": "https://nilukshinonis.com"
 }

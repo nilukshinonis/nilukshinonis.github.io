@@ -68,8 +68,8 @@ const IndexPage = () => (
               </a>
               <h3 className="major">Cover Me App</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
+                ‘CoverMe’ is a mobile app for a Sri Lankan office worker who forgets their umbrella.
+                The app enables them to rent an umbrella and never worry about bad weather again.
               </p>
               <a href="/#" className="special">
                 Learn more
@@ -81,8 +81,7 @@ const IndexPage = () => (
               </a>
               <h3 className="major">Mommy Halo </h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
+                Mommy Halo is a  donut shaped iPad holder for pregnant mothers to safely and comfortably rest a tablet, on their pregnant belly.
               </p>
               <a href="/#" className="special">
                 Learn more
@@ -92,10 +91,10 @@ const IndexPage = () => (
               <a href="/#" className="image">
                 <img src={project_plasticcycle_image} alt="" />
               </a>
-              <h3 className="major">Plasticcycle</h3>
+              <h3 className="major">Plastic-cycle</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
+                Plastic-cycle Bin is a product at the core of the John Keells plastic reduction and recycling initiative,
+               but as a public facing icon and also as an internal tool that can be used to increase the awareness of plastic waste and its impact on the environment, the planet and society.
               </p>
               <a href="/#" className="special">
                 Learn more
@@ -107,8 +106,8 @@ const IndexPage = () => (
               </a>
               <h3 className="major">Atlas Water Bottles</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
+                Atlas water bottles are the first mass scale locally designed and manufactured bottles in Srilanka that's fun and sporty,
+                encouraging kids to drink more water.
               </p>
               <a href="/#" className="special">
                 Learn more
