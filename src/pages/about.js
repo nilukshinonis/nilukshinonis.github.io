@@ -33,7 +33,7 @@ const IndexPage = () => (
             I was sent on missions to a city called Pettah in Sri Lanka where I searched every nook and corner and found what we needed. I can basically get things done.
           </p>
           <p>
-           Checkout my <a href={cv}><span style={cvStyle}>CV</span></a> to know more about me.
+           Checkout my <a href={cv} target="_blank" rel="noopener noreferrer"><span style={cvStyle}>CV</span></a> to know more about me.
           </p>
         </div>
       </div>

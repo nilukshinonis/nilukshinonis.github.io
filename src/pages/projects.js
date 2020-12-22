@@ -36,7 +36,7 @@ const IndexPage = () => (
           </p>
           <section className="features">
             <article>
-              <a href="/#" className="image">
+              <a href="/projects/govi-mithuru" className="image">
                 <img src={project_govi_mithuru_image} alt="" />
               </a>
               <h3 className="major">Govi Mithuru Service App</h3>
@@ -45,7 +45,7 @@ const IndexPage = () => (
                 The app provides customized and timely advice to farmers regarding land preparation, cultivation, crop protection, harvest
                 and improved family nutrition.
               </p>
-              <a href="/#" className="special">
+              <a href="/projects/govi-mithuru" className="special">
                 See more about Govi Mithuru
               </a>
             </article>
