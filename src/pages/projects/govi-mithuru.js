@@ -4,6 +4,7 @@ import Layout from '../../components/Layout';
 import pic4 from '../../assets/images/pic04.jpg';
 import pic5 from '../../assets/images/pic05.jpg';
 import magri_graph from '../../assets/images/project_image_govi_1.png';
+import magri_frog_ecosystem from '../../assets/images/project_image_govi_frog_ecosystem_pic.png';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -65,20 +66,19 @@ const IndexPage = () => (
             M-Agri toolkit with farmers of Sri Lanka in the hope of
             understanding the real need of farmers.
           </p>
-          
-          <img className="image main" src={magri_graph} alt=""/>
+
+          <img className="image main" src={magri_graph} alt="" />
 
           <h3 className="major">The Approach</h3>
           <p>
-            As an student UX researcher and tester I was out in the field
-            spending time with farmers and other agricultural ecosystem players
-            to understand their needs, placing Human Centred Design (HCD) at the
-            core of the offering and later presenting the findings to come up
-            with a solution to the pain points farmers faced on a daily basis.
-            Later sharing our findings and iterating concepts with detailing
-            wireframes and prototype making and testing was part of my
-            contribution.
+            The selected locations were Nuwara Eliya 175km from Colombo and
+            Anuradhapura 201 km from Colombo. Here majority of farmer clusters
+            can be observed. With known contacts we had a few farmers to
+            interview. Later the team continued recruiting as we were in the
+            field making new connections.
           </p>
+          <img className="image main" src={magri_frog_ecosystem} alt="" />
+
           <section className="features">
             <article>
               <a href="/#" className="image">
