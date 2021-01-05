@@ -93,8 +93,8 @@ const IndexPage = () => (
               </a>
               <h3 className="major">Plastic-cycle</h3>
               <p>
-                Plastic-cycle Bin is a product at the core of the John Keells plastic reduction and recycling initiative,
-               but as a public facing icon and also as an internal tool that can be used to increase the awareness of plastic waste and its impact on the environment, the planet and society.
+                Plastic-cyle bin is a plastic collector that is placed all over Sri Lanka in the hope of collecting and recycling plastics.
+                The bin not only has been an icon and internal tool for the John Keells group plastic reduction and recycling initiative,but helps create new consumer behaviour.
               </p>
               <a href="/#" className="special">
                 Learn more
