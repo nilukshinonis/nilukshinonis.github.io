@@ -5,6 +5,7 @@ import pic4 from '../../assets/images/pic04.jpg';
 import pic5 from '../../assets/images/pic05.jpg';
 import magri_graph from '../../assets/images/project_image_govi_1.png';
 import magri_frog_ecosystem from '../../assets/images/project_image_govi_frog_ecosystem_pic.png';
+import magri_frog_lilianandme from '../../assets/images/project_image_govi_frog_lilianandme.png';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -94,7 +95,7 @@ const IndexPage = () => (
                 Didn’t get good prices due to middle men who exploit them and
                 their financial situation
               </li>
-              and that
+            
               <li>
                 Farmers wholly trusted their family, friends and fellow farmers.
                 They trusted government bodies MNO’s , banks and microfinance
@@ -103,6 +104,7 @@ const IndexPage = () => (
               </li>
             </ul>
           </p>
+          <img className="image main" src={magri_frog_lilianandme} alt="" />
 
           <section className="features">
             <article>
