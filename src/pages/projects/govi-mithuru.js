@@ -78,6 +78,31 @@ const IndexPage = () => (
             field making new connections.
           </p>
           <img className="image main" src={magri_frog_ecosystem} alt="" />
+          <p>
+            The project team interviewed 80 farmers at their homes and work
+            fields to test hypothesis already built. Before getting on the field
+            we needed to identify all the actors who have an influence on the
+            farmer. So we mapped the eco system. In the planning stage we
+            thought;
+            <ul>
+              <li>Farmers didn’t have access to information</li>
+              <li>
+                So Farmers didn’t know most product offered for them by MNOs
+              </li>
+              <li>So they used excessive pesticides on harvest</li>
+              <li>
+                Didn’t get good prices due to middle men who exploit them and
+                their financial situation
+              </li>
+              and that
+              <li>
+                Farmers wholly trusted their family, friends and fellow farmers.
+                They trusted government bodies MNO’s , banks and microfinance
+                institutes more than middlemen (Since their hard-earned crops
+                were always devalued by middlemen).
+              </li>
+            </ul>
+          </p>
 
           <section className="features">
             <article>
