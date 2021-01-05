@@ -3,6 +3,7 @@ import React from 'react';
 import Layout from '../../components/Layout';
 import pic4 from '../../assets/images/pic04.jpg';
 import pic5 from '../../assets/images/pic05.jpg';
+import magri_graph from '../../assets/images/project_image_govi_1.png';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -16,39 +17,68 @@ const IndexPage = () => (
 
       <div className="wrapper">
         <div className="inner">
-          <h3 className="major">Lorem ipsum dolor</h3>
+          <h3 className="major">The App</h3>
           <p>
-            Morbi mattis mi consectetur tortor elementum, varius pellentesque
-            velit convallis. Aenean tincidunt lectus auctor mauris maximus, ac
-            scelerisque ipsum tempor. Duis vulputate ex et ex tincidunt, quis
-            lacinia velit aliquet. Duis non efficitur nisi, id malesuada justo.
-            Maecenas sagittis felis ac sagittis semper. Curabitur purus leo
-            donec vel dolor at arcu tincidunt bibendum. Interdum et malesuada
-            fames ac ante ipsum primis in faucibus. Fusce ut aliquet justo.
-            Donec id neque ipsum. Integer eget ultricies odio. Nam vel ex a orci
-            fringilla tincidunt. Aliquam eleifend ligula non velit accumsan
-            cursus. Etiam ut gravida sapien.
+            'Govi Mithuru' (in Sinhala) service app, launched in 2015 October,
+            is a mobile advisory service for farmers and home growers in Sri
+            Lanka. The service is designed to be used easily by anyone using
+            even a very basic phone. The app provides customized and timely
+            advice to farmers regarding land preparation, cultivation, crop
+            protection, harvest and improved family nutrition. By December 2016,
+            it has been subscribed by more than half a million registered users.
           </p>
 
+          <h3 className="major">The Team</h3>
           <p>
-            Vestibulum ultrices risus velit, sit amet blandit massa auctor sit
-            amet. Sed eu lectus sem. Phasellus in odio at ipsum porttitor mollis
-            id vel diam. Praesent sit amet posuere risus, eu faucibus lectus.
-            Vivamus ex ligula, tempus pulvinar ipsum in, auctor porta quam.
-            Proin nec commodo, vel scelerisque nisi scelerisque. Suspendisse id
-            quam vel tortor tincidunt suscipit. Nullam auctor orci eu dolor
-            consectetur, interdum ullamcorper ante tincidunt. Mauris felis nec
-            felis elementum varius.
+            Lilian Tse ( Program Manager Frog), Alvero Marquez (Creative
+            Director, Frog) , Inas Jenabdeen ( Product Engineer, Dialog),
+            Sathyan Velumani (Ux Designer, Dialog), Victoria Clause (Market
+            Engagement Manager, GSMA), Hiroshan Weerawardena ( Student
+            Participation ) Funded by GSMA mAgri. Content by the Ministry of
+            Agriculture of the Government of Sri Lanka, the Centre for
+            Agriculture and Biosciences International, Ministry of Health,
+            Nutrition &amp; Indigenous Medicine of the Government of Sri Lanka.
           </p>
 
-          <h3 className="major">Vitae phasellus</h3>
+          <h3 className="major">My Role</h3>
           <p>
-            Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
-            Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis
-            egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus
-            in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.
+            As an student UX researcher and tester I was out in the field
+            spending time with farmers and other agricultural ecosystem players
+            to understand their needs, placing Human Centred Design (HCD) at the
+            core of the offering and later presenting the findings to come up
+            with a solution to the pain points farmers faced on a daily basis.
+            Later sharing our findings and iterating concepts with detailing
+            wireframes and prototype making and testing was part of my
+            contribution.
           </p>
 
+          <h3 className="major">The Business Need</h3>
+          <h4>
+            How might we empower the livelihood of farmers through mobile
+            technology?
+          </h4>
+          <p>
+            Dialog a leading Mobile Network Operator (MNO) had been introducing
+            products services for farmers of Sri Lanka since 2011. Yet
+            statistics revealed only 21% farmers adopted to these services and
+            continued using them. So they teamed up with GSMA and Frog to test a
+            M-Agri toolkit with farmers of Sri Lanka in the hope of
+            understanding the real need of farmers.
+          </p>
+          
+          <img className="image main" src={magri_graph} alt=""/>
+
+          <h3 className="major">The Approach</h3>
+          <p>
+            As an student UX researcher and tester I was out in the field
+            spending time with farmers and other agricultural ecosystem players
+            to understand their needs, placing Human Centred Design (HCD) at the
+            core of the offering and later presenting the findings to come up
+            with a solution to the pain points farmers faced on a daily basis.
+            Later sharing our findings and iterating concepts with detailing
+            wireframes and prototype making and testing was part of my
+            contribution.
+          </p>
           <section className="features">
             <article>
               <a href="/#" className="image">

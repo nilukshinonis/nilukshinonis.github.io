@@ -37,7 +37,7 @@ const IndexPage = () => (
           <section className="features">
             <article>
               <a href="/projects/govi-mithuru" className="image">
-                <img src={project_govi_mithuru_image} alt="" />
+                <img src={project_govi_mithuru_image} alt="Govi Mithuru App" />
               </a>
               <h3 className="major">Govi Mithuru Service App</h3>
               <p>
@@ -51,7 +51,7 @@ const IndexPage = () => (
             </article>
             <article>
               <a href="/#" className="image">
-                <img src={project_viyana_image} alt="" />
+                <img src={project_viyana_image} alt="Viyana Quick Shade" />
               </a>
               <h3 className="major">Viyana Quick Shade</h3>
               <p>
@@ -64,7 +64,7 @@ const IndexPage = () => (
             </article>
             <article>
               <a href="/#" className="image">
-                <img src={project_cover_me_image} alt="" />
+                <img src={project_cover_me_image} alt="Cover Me App" />
               </a>
               <h3 className="major">Cover Me App</h3>
               <p>
@@ -72,24 +72,24 @@ const IndexPage = () => (
                 The app enables them to rent an umbrella and never worry about bad weather again.
               </p>
               <a href="/#" className="special">
-                Learn more
+                See more about the Cover Me App
               </a>
             </article>
             <article>
               <a href="/#" className="image">
-                <img src={project_halo_image} alt="" />
+                <img src={project_halo_image} alt="Mommy Halo" />
               </a>
               <h3 className="major">Mommy Halo </h3>
               <p>
                 Mommy Halo is a  donut shaped iPad holder for pregnant mothers to safely and comfortably rest a tablet, on their pregnant belly.
               </p>
               <a href="/#" className="special">
-                Learn more
+                See more about Mommy Halo
               </a>
             </article>
             <article>
               <a href="/#" className="image">
-                <img src={project_plasticcycle_image} alt="" />
+                <img src={project_plasticcycle_image} alt="Plastic-cycle" />
               </a>
               <h3 className="major">Plastic-cycle</h3>
               <p>
@@ -97,12 +97,12 @@ const IndexPage = () => (
                 The bin not only has been an icon and internal tool for the John Keells group plastic reduction and recycling initiative,but helps create new consumer behaviour.
               </p>
               <a href="/#" className="special">
-                Learn more
+                See more about Plastic-cycle
               </a>
             </article>
             <article>
               <a href="/#" className="image">
-                <img src={project_atlas_bottle_image} alt="" />
+                <img src={project_atlas_bottle_image} alt="Atlas Water Bottles" />
               </a>
               <h3 className="major">Atlas Water Bottles</h3>
               <p>
@@ -110,7 +110,7 @@ const IndexPage = () => (
                 encouraging kids to drink more water.
               </p>
               <a href="/#" className="special">
-                Learn more
+                See more about Atlas Water Bottles
               </a>
             </article>
           </section>
