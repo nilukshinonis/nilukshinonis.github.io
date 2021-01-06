@@ -311,10 +311,11 @@ const IndexPage = () => (
               </a>
               <a
                 href="https://www.gsma.com/mobilefordevelopment/wp-content/uploads/2017/06/govi-mithuru-mobile-agriculture-service-dialog-sri-lanka.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="special"
               >
-                See the case study - Govi Mithuru/Uzavar Tholan: A mobile
-                agriculture service by Dialog, Sri Lanka
+                See the case study 
               </a>
             </article>
             <article>
