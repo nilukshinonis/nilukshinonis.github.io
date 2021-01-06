@@ -5,7 +5,7 @@ import pic4 from '../../assets/images/pic04.jpg';
 import pic5 from '../../assets/images/pic05.jpg';
 import magri_graph from '../../assets/images/project_image_govi_1.png';
 import magri_frog_ecosystem from '../../assets/images/project_image_govi_frog_ecosystem_pic.png';
-import magri_frog_lilianandme from '../../assets/images/project_image_govi_frog_lilianandme.png';
+import magri_frog_lilian_and_me from '../../assets/images/project_image_govi_frog_lilianandme.png';
 import magri_frog_postitwall from '../../assets/images/project_image_govi_frog_postitwall.png';
 import magri_frog_table from '../../assets/images/project_image_govi_frog_table.png';
 import magri_frog_wireframe from '../../assets/images/project_image_govi_frog_wireframe.png';
@@ -110,7 +110,7 @@ const IndexPage = () => (
               </li>
             </ul>
           </p>
-          <img className="image main" src={magri_frog_lilianandme} alt="" />
+          <img className="image main" src={magri_frog_lilian_and_me} alt="" />
           <p>
             How we tested these Hypothesis’s were;
             <ul>
@@ -199,8 +199,8 @@ const IndexPage = () => (
           </p>
           <p>
             Framing all the insights we embarked on brainstorming ideas to solve
-            problems in general. The problem was reframed to “How might we
-            provide timely information to farmers?” Common patterns emerging
+            problems in general. The problem was reframed to; <strong>“How might we
+            provide timely information to farmers?”. </strong> Common patterns emerging
             through the 80 farmers made it clear that the information gap neede.
             The information had to come from the source they trust; the
             Government. So we were collaborating with various government bodies
@@ -333,8 +333,7 @@ const IndexPage = () => (
                 rel="noopener noreferrer"
                 className="special"
               >
-                Read more in the article - The ground-breaking 'Govi Mithuru' (in Sinhala) or 'Ulavar
-                Tholan' (in Tamil) service
+                Read article 
               </a>
             </article>
           </section>
