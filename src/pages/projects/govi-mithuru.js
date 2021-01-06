@@ -225,13 +225,39 @@ const IndexPage = () => (
 
           <section className="features">
             <article>
-              <a href="/#" className="image">
+              <a
+                href="https://www.gsma.com/mobilefordevelopment/wp-content/uploads/2017/06/govi-mithuru-mobile-agriculture-service-dialog-sri-lanka.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="image"
+              >
                 <img src={pic4} alt="" />
+              </a>
+              <a
+                href="https://www.gsma.com/mobilefordevelopment/wp-content/uploads/2017/06/govi-mithuru-mobile-agriculture-service-dialog-sri-lanka.pdf"
+                className="special"
+              >
+                See the case study - Govi Mithuru/Uzavar Tholan: A mobile
+                agriculture service by Dialog, Sri Lanka
               </a>
             </article>
             <article>
-              <a href="/#" className="image">
+              <a
+                href="https://www.dialog.lk/govi-mithuru/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="image"
+              >
                 <img src={pic5} alt="" />
+              </a>
+              <a
+                href="https://www.dialog.lk/govi-mithuru/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="special"
+              >
+                Read more in the article - The ground-breaking 'Govi Mithuru' (in Sinhala) or 'Ulavar
+                Tholan' (in Tamil) service
               </a>
             </article>
           </section>
