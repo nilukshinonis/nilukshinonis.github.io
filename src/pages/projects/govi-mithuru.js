@@ -251,7 +251,10 @@ const IndexPage = () => (
             to our farmers positive of the outcome.
           </p>
           <img
-            className="image main" src={magri_frog_inaswithcalander} alt="" />
+            className="image main"
+            src={magri_frog_inaswithcalander}
+            alt=""
+          />
           <p>
             Farmers had to give a missed call to 6166 when they started
             preparing their land. The next missed call to 6167 will denote that
@@ -280,6 +283,21 @@ const IndexPage = () => (
             but the home grow enthusiast back in Colombo.
           </p>
           <img className="image main" src={magri_frog_interfaceofapp} alt="" />
+          <h3 className="major">Reflection</h3>
+          <p>
+            35% of the target audience registered. 87% registered users’
+            accessed content. 86% of content accessing users became repeat
+            users. 75% of active users paid for the service. (According to
+            independent study by GSMA in 2016). Paddy (rice) and home gardening
+            are the most popular topics. Young farmers preferred the smart phone
+            app. Research to add daily weather alerts and market price update
+            features are on the way. Team felt within the time frame this area
+            has room for improvement. Majority still get the service on their
+            feature phone to this date. Feature phone or smartphone the service
+            had value getting the information hard to possess for a farmer. Back
+            in urban areas where information was easy to access users felt the
+            service was very basic.
+          </p>
 
           <section className="features">
             <article>
