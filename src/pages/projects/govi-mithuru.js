@@ -8,6 +8,7 @@ import magri_frog_ecosystem from '../../assets/images/project_image_govi_frog_ec
 import magri_frog_lilianandme from '../../assets/images/project_image_govi_frog_lilianandme.png';
 import magri_frog_postitwall from '../../assets/images/project_image_govi_frog_postitwall.png';
 import magri_frog_table from '../../assets/images/project_image_govi_frog_table.png';
+import magri_frog_wireframe from '../../assets/images/project_image_govi_frog_wireframe.png';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -202,6 +203,7 @@ const IndexPage = () => (
             Government. So we were collaborating with various government bodies
             from then on.
           </p>
+          <img className="image main" src={magri_frog_wireframe} alt="" />
 
           <section className="features">
             <article>
