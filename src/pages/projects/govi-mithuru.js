@@ -11,6 +11,7 @@ import magri_frog_table from '../../assets/images/project_image_govi_frog_table.
 import magri_frog_wireframe from '../../assets/images/project_image_govi_frog_wireframe.png';
 import magri_frog_prototype from '../../assets/images/project_image_govi_frog_prototype.png';
 import magri_frog_inaswithcalander from '../../assets/images/project_image_govi_frog_inaswithcalander.png';
+import magri_frog_interfaceofapp from '../../assets/images/project_image_govi_frog_interfaceofapp.png';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -250,10 +251,7 @@ const IndexPage = () => (
             to our farmers positive of the outcome.
           </p>
           <img
-            className="image main"
-            src={magri_frog_inaswithcalander}
-            alt=""
-          />
+            className="image main" src={magri_frog_inaswithcalander} alt="" />
           <p>
             Farmers had to give a missed call to 6166 when they started
             preparing their land. The next missed call to 6167 will denote that
@@ -281,6 +279,7 @@ const IndexPage = () => (
             helped us design the final UI and cater to not only the rural farmer
             but the home grow enthusiast back in Colombo.
           </p>
+          <img className="image main" src={magri_frog_interfaceofapp} alt="" />
 
           <section className="features">
             <article>
