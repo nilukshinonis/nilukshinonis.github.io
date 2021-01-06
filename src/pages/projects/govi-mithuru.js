@@ -10,6 +10,7 @@ import magri_frog_postitwall from '../../assets/images/project_image_govi_frog_p
 import magri_frog_table from '../../assets/images/project_image_govi_frog_table.png';
 import magri_frog_wireframe from '../../assets/images/project_image_govi_frog_wireframe.png';
 import magri_frog_prototype from '../../assets/images/project_image_govi_frog_prototype.png';
+import magri_frog_inaswithcalander from '../../assets/images/project_image_govi_frog_inaswithcalander.png';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -248,6 +249,7 @@ const IndexPage = () => (
             offered. This ‘missed call’ feature was simple and so we went back
             to our farmers positive of the outcome.
           </p>
+          <img className="image main" src={magri_frog_inaswithcalander} alt="" />
 
           <section className="features">
             <article>
