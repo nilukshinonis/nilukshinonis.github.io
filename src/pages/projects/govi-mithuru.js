@@ -6,6 +6,7 @@ import pic5 from '../../assets/images/pic05.jpg';
 import magri_graph from '../../assets/images/project_image_govi_1.png';
 import magri_frog_ecosystem from '../../assets/images/project_image_govi_frog_ecosystem_pic.png';
 import magri_frog_lilianandme from '../../assets/images/project_image_govi_frog_lilianandme.png';
+import magri_frog_postitwall from '../../assets/images/project_image_govi_frog_postitwall.png';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -115,6 +116,7 @@ const IndexPage = () => (
               <li>House- farm tour to understand farmers stand on technology and connectivity</li>
             </ul>
           </p>
+          <img className="image main" src={magri_frog_postitwall} alt="" />
 
           <section className="features">
             <article>
