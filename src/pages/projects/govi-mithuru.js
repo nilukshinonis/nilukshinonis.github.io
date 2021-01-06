@@ -9,6 +9,7 @@ import magri_frog_lilianandme from '../../assets/images/project_image_govi_frog_
 import magri_frog_postitwall from '../../assets/images/project_image_govi_frog_postitwall.png';
 import magri_frog_table from '../../assets/images/project_image_govi_frog_table.png';
 import magri_frog_wireframe from '../../assets/images/project_image_govi_frog_wireframe.png';
+import magri_frog_prototype from '../../assets/images/project_image_govi_frog_prototype.png';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -220,6 +221,7 @@ const IndexPage = () => (
             with card sorting to see if farmers appreciated the value added by
             us to the product.
           </p>
+          <img className="image main" src={magri_frog_prototype} alt="" />
 
           <section className="features">
             <article>
