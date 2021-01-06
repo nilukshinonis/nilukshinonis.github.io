@@ -10,6 +10,8 @@ import magri_frog_postitwall from '../../assets/images/project_image_govi_frog_p
 import magri_frog_table from '../../assets/images/project_image_govi_frog_table.png';
 import magri_frog_wireframe from '../../assets/images/project_image_govi_frog_wireframe.png';
 import magri_frog_prototype from '../../assets/images/project_image_govi_frog_prototype.png';
+import magri_frog_inaswithcalander from '../../assets/images/project_image_govi_frog_inaswithcalander.png';
+import magri_frog_interfaceofapp from '../../assets/images/project_image_govi_frog_interfaceofapp.png';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -222,6 +224,80 @@ const IndexPage = () => (
             us to the product.
           </p>
           <img className="image main" src={magri_frog_prototype} alt="" />
+          <p>
+            We looked at other key findings from our field work. 89% Farmers had
+            access to one very budget feature phone but also had secondary
+            access to a smart phone within their family. Hence we embarked on
+            rapid prototyping a basic low fidelity mock up of the product and
+            visited the farmers to test how they respond to it. Even though
+            farmers are highly intelligent people a simple ‘dial 1 for carrot, 2
+            for leek, and 3 for gherkin ‘created a lot of confusion in them. So
+            we were back on our insight board re-iterating a simple system that
+            is easy to understand by our core user. Farmers had only used a
+            mobile phone to make calls. So we started training agents to help
+            them learn how to respond to a voice message.
+          </p>
+          <p>
+            One of the ideas I generated at these brainstorming was to print a
+            physical calendar. This will hang on the wall of a farmer that
+            helped him document and keep account of the dates through a set of
+            stickers which seemed easy and practical. Yet it was just another
+            post-it under idea generation until we pull it up refined and merged
+            it with an insight from the field. Farmers were a part of a “give me
+            a missed call” culture which made them respond to most calls while
+            on the field. This resulted in a printed calendar with the service
+            and provided reminders of all the ‘missed call’ numbers Dialog
+            offered. This ‘missed call’ feature was simple and so we went back
+            to our farmers positive of the outcome.
+          </p>
+          <img
+            className="image main"
+            src={magri_frog_inaswithcalander}
+            alt=""
+          />
+          <p>
+            Farmers had to give a missed call to 6166 when they started
+            preparing their land. The next missed call to 6167 will denote that
+            they had now moved to the next stage in the farming cycle, seeding,
+            and so on. Results showed that this was way too complicated. The
+            many numbers were hard to remember. The messages on the calendar
+            were not fully understood. Farmers clearly indicated their desire
+            for timely crop information and always expected a person to be on
+            the other end of the line.
+          </p>
+          <p>
+            This resulted in developing the final product to contain advice
+            through both automated outbound dialling (OBD) and interactive voice
+            response (IVR). The trained agents of the service went door to door
+            and taught the farmer how to get the service. The solution was a
+            simple automated voice service that sent farmers information on best
+            practices, seasonal advice and general guidance. A farmer has to
+            dial 616 and follow instructions. One number was easy to remember
+            and it also helped promote the service to another farmer by world of
+            mouth. The service charges one rupee per day and was easy to
+            understand.
+          </p>
+          <p>
+            Further feedback from call centers and our basic research insights
+            helped us design the final UI and cater to not only the rural farmer
+            but the home grow enthusiast back in Colombo.
+          </p>
+          <img className="image main" src={magri_frog_interfaceofapp} alt="" />
+          <h3 className="major">Reflection</h3>
+          <p>
+            35% of the target audience registered. 87% registered users’
+            accessed content. 86% of content accessing users became repeat
+            users. 75% of active users paid for the service. (According to
+            independent study by GSMA in 2016). Paddy (rice) and home gardening
+            are the most popular topics. Young farmers preferred the smart phone
+            app. Research to add daily weather alerts and market price update
+            features are on the way. Team felt within the time frame this area
+            has room for improvement. Majority still get the service on their
+            feature phone to this date. Feature phone or smartphone the service
+            had value getting the information hard to possess for a farmer. Back
+            in urban areas where information was easy to access users felt the
+            service was very basic.
+          </p>
 
           <section className="features">
             <article>
