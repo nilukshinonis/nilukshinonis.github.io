@@ -32,7 +32,7 @@ const IndexPage = () => (
 
           <h3 className="major">The Team</h3>
           <p>
-            Lilian Tse ( Program Manager Frog), Alvero Marquez (Creative
+            Lilian Tse ( Program Manager, Frog), Alvero Marquez (Creative
             Director, Frog) , Inas Jenabdeen ( Product Engineer, Dialog),
             Sathyan Velumani (Ux Designer, Dialog), Victoria Clause (Market
             Engagement Manager, GSMA), Hiroshan Weerawardena ( Student
@@ -44,7 +44,7 @@ const IndexPage = () => (
 
           <h3 className="major">My Role</h3>
           <p>
-            As an student UX researcher and tester I was out in the field
+            As a student UX researcher and tester I was out in the field
             spending time with farmers and other agricultural ecosystem players
             to understand their needs, placing Human Centred Design (HCD) at the
             core of the offering and later presenting the findings to come up
@@ -105,6 +105,16 @@ const IndexPage = () => (
             </ul>
           </p>
           <img className="image main" src={magri_frog_lilianandme} alt="" />
+          <p>
+          How we tested these Hypothesis’s were;
+            <ul>
+              <li>In-depth interviews with farmers to extract the why to most frustrations they have</li>
+              <li>Intercept interviews to understand the whole farming ecosystem</li>
+              <li>Farming life cycle exercise to understand a farmer's journey</li>
+              <li>Trust maps to understand trust and decision making</li>
+              <li>House- farm tour to understand farmers stand on technology and connectivity</li>
+            </ul>
+          </p>
 
           <section className="features">
             <article>
