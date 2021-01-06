@@ -186,6 +186,22 @@ const IndexPage = () => (
             technical literacy.
           </p>
           <img className="image main" src={magri_frog_table} alt="" />
+          <p>
+            ‘Optimistic’ and ‘stuck’ farmers were target early adopters for this
+            service. Next we mapped the information collected in the field,
+            considering each touch point. Then we highlighted the pain points
+            and opportunities. We could see that every step of the journey a gap
+            existed in getting advice.
+          </p>
+          <p>
+            Framing all the insights we embarked on brainstorming ideas to solve
+            problems in general. The problem was reframed to “How might we
+            provide timely information to farmers?” Common patterns emerging
+            through the 80 farmers made it clear that the information gap neede.
+            The information had to come from the source they trust; the
+            Government. So we were collaborating with various government bodies
+            from then on.
+          </p>
 
           <section className="features">
             <article>
