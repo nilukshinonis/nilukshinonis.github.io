@@ -13,6 +13,7 @@ import magri_frog_prototype from '../../assets/images/project_image_govi_frog_pr
 import magri_frog_inaswithcalander from '../../assets/images/project_image_govi_frog_inaswithcalander.png';
 import magri_frog_interfaceofapp from '../../assets/images/project_image_govi_frog_interfaceofapp.png';
 import magri_frog_casestudyimage from '../../assets/images/project_image_govi_casestudy_img.png';
+import magri_frog_articleimage from '../../assets/images/project_image_govi_article_img.png';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -326,7 +327,7 @@ const IndexPage = () => (
                 rel="noopener noreferrer"
                 className="image"
               >
-                <img src={pic5} alt="" />
+                <img src={magri_frog_articleimage} alt="" />
               </a>
               <a
                 href="https://www.dialog.lk/govi-mithuru/"
