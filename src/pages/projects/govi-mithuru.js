@@ -249,7 +249,38 @@ const IndexPage = () => (
             offered. This ‘missed call’ feature was simple and so we went back
             to our farmers positive of the outcome.
           </p>
-          <img className="image main" src={magri_frog_inaswithcalander} alt="" />
+          <img
+            className="image main"
+            src={magri_frog_inaswithcalander}
+            alt=""
+          />
+          <p>
+            Farmers had to give a missed call to 6166 when they started
+            preparing their land. The next missed call to 6167 will denote that
+            they had now moved to the next stage in the farming cycle, seeding,
+            and so on. Results showed that this was way too complicated. The
+            many numbers were hard to remember. The messages on the calendar
+            were not fully understood. Farmers clearly indicated their desire
+            for timely crop information and always expected a person to be on
+            the other end of the line.
+          </p>
+          <p>
+            This resulted in developing the final product to contain advice
+            through both automated outbound dialling (OBD) and interactive voice
+            response (IVR). The trained agents of the service went door to door
+            and taught the farmer how to get the service. The solution was a
+            simple automated voice service that sent farmers information on best
+            practices, seasonal advice and general guidance. A farmer has to
+            dial 616 and follow instructions. One number was easy to remember
+            and it also helped promote the service to another farmer by world of
+            mouth. The service charges one rupee per day and was easy to
+            understand.
+          </p>
+          <p>
+            Further feedback from call centers and our basic research insights
+            helped us design the final UI and cater to not only the rural farmer
+            but the home grow enthusiast back in Colombo.
+          </p>
 
           <section className="features">
             <article>
