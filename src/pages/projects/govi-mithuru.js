@@ -222,6 +222,32 @@ const IndexPage = () => (
             us to the product.
           </p>
           <img className="image main" src={magri_frog_prototype} alt="" />
+          <p>
+            We looked at other key findings from our field work. 89% Farmers had
+            access to one very budget feature phone but also had secondary
+            access to a smart phone within their family. Hence we embarked on
+            rapid prototyping a basic low fidelity mock up of the product and
+            visited the farmers to test how they respond to it. Even though
+            farmers are highly intelligent people a simple ‘dial 1 for carrot, 2
+            for leek, and 3 for gherkin ‘created a lot of confusion in them. So
+            we were back on our insight board re-iterating a simple system that
+            is easy to understand by our core user. Farmers had only used a
+            mobile phone to make calls. So we started training agents to help
+            them learn how to respond to a voice message.
+          </p>
+          <p>
+            One of the ideas I generated at these brainstorming was to print a
+            physical calendar. This will hang on the wall of a farmer that
+            helped him document and keep account of the dates through a set of
+            stickers which seemed easy and practical. Yet it was just another
+            post-it under idea generation until we pull it up refined and merged
+            it with an insight from the field. Farmers were a part of a “give me
+            a missed call” culture which made them respond to most calls while
+            on the field. This resulted in a printed calendar with the service
+            and provided reminders of all the ‘missed call’ numbers Dialog
+            offered. This ‘missed call’ feature was simple and so we went back
+            to our farmers positive of the outcome.
+          </p>
 
           <section className="features">
             <article>
