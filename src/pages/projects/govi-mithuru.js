@@ -12,6 +12,7 @@ import magri_frog_wireframe from '../../assets/images/project_image_govi_frog_wi
 import magri_frog_prototype from '../../assets/images/project_image_govi_frog_prototype.png';
 import magri_frog_inaswithcalander from '../../assets/images/project_image_govi_frog_inaswithcalander.png';
 import magri_frog_interfaceofapp from '../../assets/images/project_image_govi_frog_interfaceofapp.png';
+import magri_frog_casestudyimage from '../../assets/images/project_image_govi_casestudy_img.png';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -307,7 +308,7 @@ const IndexPage = () => (
                 rel="noopener noreferrer"
                 className="image"
               >
-                <img src={pic4} alt="" />
+                <img src={magri_frog_casestudyimage} alt="" />
               </a>
               <a
                 href="https://www.gsma.com/mobilefordevelopment/wp-content/uploads/2017/06/govi-mithuru-mobile-agriculture-service-dialog-sri-lanka.pdf"
