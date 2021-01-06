@@ -204,6 +204,22 @@ const IndexPage = () => (
             from then on.
           </p>
           <img className="image main" src={magri_frog_wireframe} alt="" />
+          <p>
+            Next the team went back to the insight board from the research and
+            iterated a key product feature for each insight. Out of a pool of
+            value propositions we identified that the product should bring the
+            right information to a farmer on request. It had to be giving
+            instructions in their native language.
+          </p>
+          <p>
+            Then we created a service blueprint. Later we decided on a feasible
+            product to launch quickly and planned for it. The minimum viable
+            product was for basic feature phones. Based on service blueprint we
+            listed the features. Quick pen and paper sketches iterated ways to
+            get the basic user interface in shape. We were back on the field
+            with card sorting to see if farmers appreciated the value added by
+            us to the product.
+          </p>
 
           <section className="features">
             <article>
