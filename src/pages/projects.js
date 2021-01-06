@@ -55,10 +55,10 @@ const IndexPage = () => (
               </a>
             </article>
             <article>
-              <a href="/viyana-quick-shade" className="image">
+              <a href="/projects/viyana-quick-shade" className="image">
                 <img src={project_viyana_image} alt="Viyana Quick Shade" />
               </a>
-              <a href="/viyana-quick-shade">
+              <a href="/projects/viyana-quick-shade">
                 <h3 className="major">Viyana Quick Shade</h3>
               </a>
               <p>
@@ -66,7 +66,7 @@ const IndexPage = () => (
                 males in Sri Lanka that feels masculine, is easy to use and
                 provides quick cover and immediately dries after use.
               </p>
-              <a href="/viyana-quick-shade" className="special">
+              <a href="/projects/viyana-quick-shade" className="special">
                 See more about Viyana Quickshade
               </a>
             </article>

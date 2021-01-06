@@ -5,8 +5,12 @@ export default function Footer() {
       <div className="inner">
         <ul className="copyright">
           <li>&copy; Nilukshi Nonis</li>
-          <li>Stock images from <a href="https://unsplash.com/">Unsplash</a></li>
-          <li>Designs inspired by <a href="https://html5up.net.com/">HTML5UP</a></li>
+          <li>
+            Stock images from <a href="https://unsplash.com/">Unsplash</a>
+          </li>
+          <li>
+            Designs inspired by <a href="https://html5up.net.com/">HTML5UP</a>
+          </li>
         </ul>
       </div>
     </section>

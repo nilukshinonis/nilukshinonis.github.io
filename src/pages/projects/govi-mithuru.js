@@ -199,12 +199,14 @@ const IndexPage = () => (
           </p>
           <p>
             Framing all the insights we embarked on brainstorming ideas to solve
-            problems in general. The problem was reframed to; <strong>“How might we
-            provide timely information to farmers?”. </strong> Common patterns emerging
-            through the 80 farmers made it clear that the information gap neede.
-            The information had to come from the source they trust; the
-            Government. So we were collaborating with various government bodies
-            from then on.
+            problems in general. The problem was reframed to;{' '}
+            <strong>
+              “How might we provide timely information to farmers?”.{' '}
+            </strong>{' '}
+            Common patterns emerging through the 80 farmers made it clear that
+            the information gap neede. The information had to come from the
+            source they trust; the Government. So we were collaborating with
+            various government bodies from then on.
           </p>
           <img className="image main" src={magri_frog_wireframe} alt="" />
           <p>
@@ -315,7 +317,7 @@ const IndexPage = () => (
                 rel="noopener noreferrer"
                 className="special"
               >
-                See the case study 
+                See the case study
               </a>
             </article>
             <article>
@@ -333,7 +335,7 @@ const IndexPage = () => (
                 rel="noopener noreferrer"
                 className="special"
               >
-                Read article 
+                Read article
               </a>
             </article>
           </section>

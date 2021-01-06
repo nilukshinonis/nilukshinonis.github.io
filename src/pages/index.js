@@ -10,7 +10,6 @@ import frame_1 from '../assets/images/frame_1.png';
 import frame_2 from '../assets/images/frame_2.png';
 import frame_3 from '../assets/images/frame_3.png';
 
-
 // import pic3 from '../assets/images/pic03.jpg';
 // import pic4 from '../assets/images/pic04.jpg';
 // import pic5 from '../assets/images/pic05.jpg';
@@ -23,7 +22,7 @@ const IndexPage = () => (
     <section id="banner">
       <div className="inner">
         <div className="logo">
-          <img className="icon" src={icon} alt="" />  
+          <img className="icon" src={icon} alt="" />
           {/* <span className="icon fa-diamond"></span> */}
         </div>
         <h2>{config.heading}</h2>
@@ -39,9 +38,7 @@ const IndexPage = () => (
           </a>
           <div className="content">
             <h2 className="major">I love to explore</h2>
-            <p>
-              Some call me ‘Pettah Ferret’.
-            </p>
+            <p>Some call me ‘Pettah Ferret’.</p>
             <a href="/about" className="special">
               Know about me
             </a>
@@ -57,7 +54,8 @@ const IndexPage = () => (
           <div className="content">
             <h2 className="major">I think</h2>
             <p>
-              Design has to be honest, delightful and less impactful to the environment.
+              Design has to be honest, delightful and less impactful to the
+              environment.
             </p>
             <a href="/projects" className="special">
               See my work
@@ -74,7 +72,7 @@ const IndexPage = () => (
           <div className="content">
             <h2 className="major">When I don’t have my design cap on</h2>
             <p>
-             I cook, knit, sew, lecture and even have my own tie and dye brand.
+              I cook, knit, sew, lecture and even have my own tie and dye brand.
             </p>
             <a href="/#" className="special">
               Contact me

@@ -8,7 +8,7 @@ module.exports = {
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/`,
-  heading: 'Hi I\'m Nilukshi Nonis',
+  heading: "Hi I'm Nilukshi Nonis",
   subHeading: ' A Product Designer in Berlin',
   // social
   socialLinks: [
@@ -22,5 +22,5 @@ module.exports = {
       name: 'Email',
       url: 'mailto:nonisnilukshi@gmail.com',
     },
-  ]
+  ],
 };
