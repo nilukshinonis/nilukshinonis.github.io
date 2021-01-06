@@ -7,6 +7,7 @@ import magri_graph from '../../assets/images/project_image_govi_1.png';
 import magri_frog_ecosystem from '../../assets/images/project_image_govi_frog_ecosystem_pic.png';
 import magri_frog_lilianandme from '../../assets/images/project_image_govi_frog_lilianandme.png';
 import magri_frog_postitwall from '../../assets/images/project_image_govi_frog_postitwall.png';
+import magri_frog_table from '../../assets/images/project_image_govi_frog_table.png';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -96,7 +97,7 @@ const IndexPage = () => (
                 Didn’t get good prices due to middle men who exploit them and
                 their financial situation
               </li>
-            
+
               <li>
                 Farmers wholly trusted their family, friends and fellow farmers.
                 They trusted government bodies MNO’s , banks and microfinance
@@ -107,16 +108,84 @@ const IndexPage = () => (
           </p>
           <img className="image main" src={magri_frog_lilianandme} alt="" />
           <p>
-          How we tested these Hypothesis’s were;
+            How we tested these Hypothesis’s were;
             <ul>
-              <li>In-depth interviews with farmers to extract the why to most frustrations they have</li>
-              <li>Intercept interviews to understand the whole farming ecosystem</li>
-              <li>Farming life cycle exercise to understand a farmer's journey</li>
+              <li>
+                In-depth interviews with farmers to extract the why to most
+                frustrations they have
+              </li>
+              <li>
+                Intercept interviews to understand the whole farming ecosystem
+              </li>
+              <li>
+                Farming life cycle exercise to understand a farmer's journey
+              </li>
               <li>Trust maps to understand trust and decision making</li>
-              <li>House- farm tour to understand farmers stand on technology and connectivity</li>
+              <li>
+                House- farm tour to understand farmers stand on technology and
+                connectivity
+              </li>
             </ul>
           </p>
           <img className="image main" src={magri_frog_postitwall} alt="" />
+          <p>
+            Our findings were surprising;
+            <ul>
+              <li>
+                Farmers had access to information but it was deficient. Most
+                farmers we visited had under developed roads. It was a struggle
+                to get to experts for necessary advice
+              </li>
+              <li>
+                Farmers were aware of the services offered to them by MNOs but
+                chose not to use them. In simple terms they didn’t trust MNO’s
+                for advice.
+              </li>
+              <li>
+                Farmers were aware of the amounts of pesticides prescribed. They
+                chose to use their own discretion since they do not want to risk
+                losing a crop and income{' '}
+              </li>
+              <li>
+                Farmers had access to a phone. Self-owned or owned by a family
+                member
+              </li>
+              <li>
+                Farmers did not want their young to pursue Agriculture as it was
+                tedious work and a huge gamble
+              </li>
+              <li>
+                Life is a daily struggle pawing valuables or borrowing money
+                from micro finance creditors. Crop security was very low due to
+                unpredictable weather conditions.
+              </li>
+              <li>
+                Since farming is seasonal most farmers grow the same variations
+                of Vegetables. Surplus crops brought down incomes expected or
+                ended up going to waste due to being unable to sell.
+              </li>
+              <li>
+                Farmers want timely information that follows the crop calendar
+              </li>
+              <li>
+                Farmers considered other farmers as competitors. They trust
+                middlemen and government bodies more than banks, MNOs’ and
+                financial institutes
+              </li>
+              <li>
+                Government information was only available to them during
+                weekdays. Which meant leaving all the work behind to go speak to
+                an expert for advice (So they rarely went for advice)
+              </li>
+            </ul>
+            It was clear that all farmers are not the same. So next we segmented
+            farmers into archetypes. This helped us decide who we are designing
+            for and who will be early adopters. Within each group, we looked for
+            patterns across farmers who have similar attitudes, aspirations,
+            community engagement, access to information, financial access, and
+            technical literacy.
+          </p>
+          <img className="image main" src={magri_frog_table} alt="" />
 
           <section className="features">
             <article>
