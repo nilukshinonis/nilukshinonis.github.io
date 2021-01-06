@@ -1,11 +1,9 @@
 import React from 'react';
 
 import Layout from '../../components/Layout';
-import pic4 from '../../assets/images/pic04.jpg';
-import pic5 from '../../assets/images/pic05.jpg';
 import magri_graph from '../../assets/images/project_image_govi_1.png';
 import magri_frog_ecosystem from '../../assets/images/project_image_govi_frog_ecosystem_pic.png';
-import magri_frog_lilian_and_me from '../../assets/images/project_image_govi_frog_lilianandme.png';
+import magri_frog_lilian_and_me from '../../assets/images/project_image_govi_frog_lilian_and_me.png';
 import magri_frog_postitwall from '../../assets/images/project_image_govi_frog_postitwall.png';
 import magri_frog_table from '../../assets/images/project_image_govi_frog_table.png';
 import magri_frog_wireframe from '../../assets/images/project_image_govi_frog_wireframe.png';
