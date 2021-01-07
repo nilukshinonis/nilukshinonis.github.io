@@ -11,7 +11,7 @@ import magri_frog_articleimage from '../../assets/images/project_image_govi_arti
 
 const IndexPage = () => (
   <Layout fullMenu>
-    <section id="wrapper-govi-mithuru">
+    <section id="wrapper-viyana-quickshade">
       <header>
         <div className="inner">
           <h2>Viyana Quick Shade</h2>
