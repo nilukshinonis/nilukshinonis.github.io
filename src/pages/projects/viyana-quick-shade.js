@@ -5,6 +5,7 @@ import viyana_research from '../../assets/images/project_image_viyana_research.p
 import viyana_sketch from '../../assets/images/project_image_viyana_sketch.png';
 import viyana_joinspic from '../../assets/images/project_image_viyana_joinspic.png';
 import viyana_charithpic from '../../assets/images/project_image_viyana_charithpic.png';
+import viyana_shenalpic from '../../assets/images/project_image_viyana_shenalpic.png';
 import magri_frog_casestudyimage from '../../assets/images/project_image_govi_casestudy_img.png';
 import magri_frog_articleimage from '../../assets/images/project_image_govi_article_img.png';
 
@@ -123,6 +124,8 @@ const IndexPage = () => (
             in testing. Users opted to test more of my products which gave me
             positive feedback to manufacture the final product model.
           </p>
+          <img className="image main" src={viyana_shenalpic} alt="" />
+
           <section className="features">
             <article>
               <a
