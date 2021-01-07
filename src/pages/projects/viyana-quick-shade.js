@@ -125,6 +125,23 @@ const IndexPage = () => (
             positive feedback to manufacture the final product model.
           </p>
           <img className="image main" src={viyana_shenalpic} alt="" />
+          <h3 className="major">Reflection</h3>
+          <p>
+            No design has been able to fulfill the requirement in locals to gain
+            immediate cover which could eliminate the agonizing process of using
+            existing weather gear. I made an attempt to propose an innovative
+            product to gain immediate cover at a reasonable cost. An umbrella
+            manufacturing process takes roughly 25 minutes for one product to be
+            produced. My solution takes roughly 15 minutes to be manufactured in
+            that same facility. The beauty of this design is that it suites the
+            user perfectly with the instant cover and the masculine semiotics in
+            the product and simultaneously serves the clients objective of
+            catering to the local need utilizing the available resources of the
+            company. My project was highly commended by the board of examiners.
+            For 10 years the project is the intellectual property of the
+            University of Moratuwa. There is a possibility that Rainco will
+            produce this later on.
+          </p>
 
           <section className="features">
             <article>
