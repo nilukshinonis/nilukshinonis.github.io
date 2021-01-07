@@ -3,6 +3,7 @@ import React from 'react';
 import Layout from '../../components/Layout';
 import viyana_research from '../../assets/images/project_image_viyana_research.png';
 import viyana_sketch from '../../assets/images/project_image_viyana_sketch.png';
+import viyana_joinspic from '../../assets/images/project_image_viyana_joinspic.png';
 import magri_frog_casestudyimage from '../../assets/images/project_image_govi_casestudy_img.png';
 import magri_frog_articleimage from '../../assets/images/project_image_govi_article_img.png';
 
@@ -102,6 +103,7 @@ const IndexPage = () => (
             point got me thinking of a cover. Many experiments with the cover
             attached and detached were carried out.
           </p>
+          <img className="image main" src={viyana_joinspic} alt="" />
           <section className="features">
             <article>
               <a
