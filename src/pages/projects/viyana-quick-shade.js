@@ -54,6 +54,28 @@ const IndexPage = () => (
             easy to use which provide quick cover and had immediate drying
             properties.
           </p>
+          <p>
+            When analyzing the user a significant finding was that this group of
+            people had lots of energy. They are always in the look for
+            adventure. This is when the question arose; Can‘t the weather
+            protection designed give the adventure fact while protecting from
+            rain? Can there be a device to give the basic shade needed without
+            the complicated structures? Can I get inspiration from history to
+            solve this problem? Luckily for me in 1981 Sinhalese had used a
+            Talipot leaf folded as a fan for cover. So I decided to develop that
+            idea and ended up designing a product like a shield or an armor to
+            gain protection.
+          </p>
+          <p>
+            The armor had to be easy to open, use and fold. It had to be easy to
+            store and make the males feel comfortable when using it. Adding the
+            masculine qualities to the product could add the emotional value to
+            the product making it part of the male self-identity so that the
+            product wouldn‘t be forgotten. Another reason for weather gear to be
+            forgotten is once after use all weather gear requires an additional
+            effort to dry them and use back again. This process too had to be
+            looked into through the new concept.
+          </p>
           <section className="features">
             <article>
               <a
