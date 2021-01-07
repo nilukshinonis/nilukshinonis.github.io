@@ -4,6 +4,7 @@ import Layout from '../../components/Layout';
 import viyana_research from '../../assets/images/project_image_viyana_research.png';
 import viyana_sketch from '../../assets/images/project_image_viyana_sketch.png';
 import viyana_joinspic from '../../assets/images/project_image_viyana_joinspic.png';
+import viyana_charithpic from '../../assets/images/project_image_viyana_charithpic.png';
 import magri_frog_casestudyimage from '../../assets/images/project_image_govi_casestudy_img.png';
 import magri_frog_articleimage from '../../assets/images/project_image_govi_article_img.png';
 
@@ -111,6 +112,16 @@ const IndexPage = () => (
             Rainco factory in Kadugannawa. I built a few of them in different
             colour variations and got my users to take it with them and give me
             feedback.{' '}
+          </p>
+          <img className="image main" src={viyana_charithpic} alt="" />
+          <p>
+            The design has no handle and users asked for more grip. This
+            resulted in various textures and layers of padding . Heavy padding
+            meant more weight on the structure. Later feedback said they needed
+            it to be light, so I was peeling layer by layer until the user was
+            happy with the final outcome. The quick dry property was appreciated
+            in testing. Users opted to test more of my products which gave me
+            positive feedback to manufacture the final product model.
           </p>
           <section className="features">
             <article>
