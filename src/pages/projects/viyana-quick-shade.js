@@ -34,13 +34,26 @@ const IndexPage = () => (
             company wanted to understand why males didn’t buy umbrellas and see
             if a product can be designed according to their need.
           </p>
-          
+
           <h3 className="major">The Problem</h3>
-          <h4>
-          Why don’t males respond to weather protection devices?
-          </h4>
-          
+          <h4>Why don’t males respond to weather protection devices?</h4>
+
           <img className="image main" src={viyana_research} alt="" />
+          <h3 className="major">The Approach</h3>
+          <p>
+            To understand the pulse of the user I conducted a survey. This
+            helped me realize the pain points related to the situation. A
+            questionnaire prepared on Google forms was sent out to 150 randomly
+            selected males who were active on social media platforms. With 123
+            responses I created an eco system map, user journey map and had
+            plenty of insights to work on.
+          </p>
+          <p>
+            It was clear that umbrellas didn’t delight males. So my task was to
+            design a weather protection device that felt masculine. A solution
+            easy to use which provide quick cover and had immediate drying
+            properties.
+          </p>
           <section className="features">
             <article>
               <a
