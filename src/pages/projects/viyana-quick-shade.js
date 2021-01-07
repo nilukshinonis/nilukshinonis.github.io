@@ -104,6 +104,14 @@ const IndexPage = () => (
             attached and detached were carried out.
           </p>
           <img className="image main" src={viyana_joinspic} alt="" />
+          <p>
+            A developed prototype made as an actual working model helped me get
+            users to test the product and give feedback and redesign. So I was
+            spending time with the manufacturers 108 km away from Colombo in the
+            Rainco factory in Kadugannawa. I built a few of them in different
+            colour variations and got my users to take it with them and give me
+            feedback.{' '}
+          </p>
           <section className="features">
             <article>
               <a
