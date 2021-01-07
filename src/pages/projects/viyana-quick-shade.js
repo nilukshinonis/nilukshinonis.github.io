@@ -2,6 +2,7 @@ import React from 'react';
 
 import Layout from '../../components/Layout';
 import viyana_research from '../../assets/images/project_image_viyana_research.png';
+import viyana_sketch from '../../assets/images/project_image_viyana_sketch.png';
 import magri_frog_casestudyimage from '../../assets/images/project_image_govi_casestudy_img.png';
 import magri_frog_articleimage from '../../assets/images/project_image_govi_article_img.png';
 
@@ -76,6 +77,7 @@ const IndexPage = () => (
             effort to dry them and use back again. This process too had to be
             looked into through the new concept.
           </p>
+          <img className="image main" src={viyana_sketch} alt="" />
           <section className="features">
             <article>
               <a
