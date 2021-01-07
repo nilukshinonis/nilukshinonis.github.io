@@ -17,15 +17,9 @@ const IndexPage = () => (
 
       <div className="wrapper">
         <div className="inner">
-          <h3 className="major">The App</h3>
+          <h3 className="major">The Project</h3>
           <p>
-            'Govi Mithuru' (in Sinhala) service app, launched in 2015 October,
-            is a mobile advisory service for farmers and home growers in Sri
-            Lanka. The service is designed to be used easily by anyone using
-            even a very basic phone. The app provides customized and timely
-            advice to farmers regarding land preparation, cultivation, crop
-            protection, harvest and improved family nutrition. By December 2016,
-            it has been subscribed by more than half a million registered users.
+          A weather protection device for males in Sri Lanka
           </p>
           <h3 className="major">The Business Need</h3>
           <h4>
