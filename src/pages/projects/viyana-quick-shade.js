@@ -78,6 +78,30 @@ const IndexPage = () => (
             looked into through the new concept.
           </p>
           <img className="image main" src={viyana_sketch} alt="" />
+          <p>
+            My ideas came to life as sketches on paper. Back in the field I
+            pitched the idea of a shield and guys showed interest. So I worked
+            on rapid prototyping. The hand of the user was what gave strength to
+            the product. It had no handle or complicated ribs. Initially users
+            wanted to fold the shield and fit into the pocket but with
+            limitations that was made to be flat packed.
+          </p>
+          <p>
+            Experiments helped me understand how the material combinations work
+            and react. The use of steel tension wire on the armor so an instant
+            pop-up could be achieved was my eureka moment to get quick cover.
+            Experimentation began with various thicknesses of steel wire, fabric
+            and joinery. Next I was on the look for water repellent material. A
+            material commonly known as ‘ponjee’ in the canopy industry had a
+            heavy water repellency coating. So that became the material for the
+            final product helping it dry in seconds.
+          </p>
+          <p>
+            One of the main frustrations of weather gear is that once its wet
+            the product becomes difficult to handle. So a solution for this pain
+            point got me thinking of a cover. Many experiments with the cover
+            attached and detached were carried out.
+          </p>
           <section className="features">
             <article>
               <a
