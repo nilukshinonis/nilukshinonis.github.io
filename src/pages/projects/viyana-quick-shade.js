@@ -142,45 +142,15 @@ const IndexPage = () => (
             University of Moratuwa. There is a possibility that Rainco will
             produce this later on.
           </p>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/HzoyYiMdcUs"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
 
-          <section className="features">
-            <article>
-              <a
-                href="https://www.gsma.com/mobilefordevelopment/wp-content/uploads/2017/06/govi-mithuru-mobile-agriculture-service-dialog-sri-lanka.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="image"
-              >
-                <img src={magri_frog_casestudyimage} alt="" />
-              </a>
-              <a
-                href="https://www.gsma.com/mobilefordevelopment/wp-content/uploads/2017/06/govi-mithuru-mobile-agriculture-service-dialog-sri-lanka.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="special"
-              >
-                See the case study
-              </a>
-            </article>
-            <article>
-              <a
-                href="https://www.dialog.lk/govi-mithuru/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="image"
-              >
-                <img src={magri_frog_articleimage} alt="" />
-              </a>
-              <a
-                href="https://www.dialog.lk/govi-mithuru/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="special"
-              >
-                Read article
-              </a>
-            </article>
-          </section>
         </div>
       </div>
     </section>
