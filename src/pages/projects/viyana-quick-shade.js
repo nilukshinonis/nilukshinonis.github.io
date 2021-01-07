@@ -10,8 +10,8 @@ const IndexPage = () => (
     <section id="wrapper-govi-mithuru">
       <header>
         <div className="inner">
-          <h2>Govi Mithuru Service App</h2>
-          <p>Empowering farmers through tech</p>
+          <h2>Viyana Quick Shade</h2>
+          <p>Immediate cover in style</p>
         </div>
       </header>
 
