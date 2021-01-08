@@ -2,6 +2,7 @@ import React from 'react';
 
 import Layout from '../../components/Layout';
 import coverme_usergroups from '../../assets/images/project_image_coverme_usergroups.png';
+import coverme_userflow from '../../assets/images/project_image_coverme_userflow.png';
 import magri_frog_casestudyimage from '../../assets/images/project_image_govi_casestudy_img.png';
 import magri_frog_articleimage from '../../assets/images/project_image_govi_article_img.png';
 
@@ -51,6 +52,13 @@ const IndexPage = () => (
           </p>
 
           <img className="image main" src={coverme_usergroups} alt="" />
+          <p>
+            ‘Light’ and ‘Heavy Rainers’ will be target early adopters for this
+            app. After some concepts were formed and the competitive landscape
+            was examined, rough user flows were created that were expanded upon
+            to build the first screens.{' '}
+          </p>
+          <img className="image main" src={coverme_userflow} alt="" />
         </div>
       </div>
     </section>
