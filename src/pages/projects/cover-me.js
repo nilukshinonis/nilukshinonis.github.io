@@ -6,6 +6,7 @@ import coverme_userflow from '../../assets/images/project_image_coverme_userflow
 import coverme_storyboard from '../../assets/images/project_image_coverme_storyboard.png';
 import coverme_onboarding from '../../assets/images/project_image_coverme_onboarding.gif';
 import coverme_popupalerts from '../../assets/images/project_image_coverme_popupalerts.png';
+import coverme_graphicelements from '../../assets/images/project_image_coverme_graphicelements.png';
 import magri_frog_casestudyimage from '../../assets/images/project_image_govi_casestudy_img.png';
 import magri_frog_articleimage from '../../assets/images/project_image_govi_article_img.png';
 
@@ -121,6 +122,17 @@ const IndexPage = () => (
             fresh intervention. Keeping the rainco style guide in mind I created
             a UX kit to work on. This helped maintain consistency in the design
             process.
+          </p>
+          <img className="image main" src={coverme_graphicelements} alt="" />
+          <h3 className="major">Reflection</h3>
+          <p>
+            Overall, this product development cycle was a success. More
+            interactions with Engineering and Product development teams will
+            bring this to every train station, bus stop in and around Colombo at
+            the kick off stage. To enjoy the benefit of the design Rainco will
+            have to make sure it markets to the target segment appropriately.
+            Since it was a proof of concent project many changes are expected to
+            take place.
           </p>
         </div>
       </div>
