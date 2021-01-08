@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Layout from '../../components/Layout';
-import viyana_research from '../../assets/images/project_image_viyana_research.png';
+import coverme_usergroups from '../../assets/images/project_image_coverme_usergroups.png';
 import magri_frog_casestudyimage from '../../assets/images/project_image_govi_casestudy_img.png';
 import magri_frog_articleimage from '../../assets/images/project_image_govi_article_img.png';
 
@@ -50,7 +50,7 @@ const IndexPage = () => (
             creating user groups.
           </p>
 
-          <img className="image main" src={viyana_research} alt="" />
+          <img className="image main" src={coverme_usergroups} alt="" />
         </div>
       </div>
     </section>
