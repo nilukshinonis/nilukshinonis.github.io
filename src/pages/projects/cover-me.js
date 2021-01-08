@@ -3,6 +3,7 @@ import React from 'react';
 import Layout from '../../components/Layout';
 import coverme_usergroups from '../../assets/images/project_image_coverme_usergroups.png';
 import coverme_userflow from '../../assets/images/project_image_coverme_userflow.png';
+import coverme_storyboard from '../../assets/images/project_image_coverme_storyboard.png';
 import magri_frog_casestudyimage from '../../assets/images/project_image_govi_casestudy_img.png';
 import magri_frog_articleimage from '../../assets/images/project_image_govi_article_img.png';
 
@@ -59,6 +60,15 @@ const IndexPage = () => (
             to build the first screens.{' '}
           </p>
           <img className="image main" src={coverme_userflow} alt="" />
+          <p>
+            Working through storyboards very quickly helps visualize solutions.
+            This helped understand the journey better and put my self in the
+            user’s shoes. It was also helpful when pitching the idea to the
+            client and figure out my core features and secondary features in the
+            app when designing.
+          </p>
+          <img className="image main" src={coverme_storyboard} alt="" />
+
         </div>
       </div>
     </section>
