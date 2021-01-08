@@ -35,6 +35,20 @@ const IndexPage = () => (
             male is the primary target group for this app anyone who forgets
             their umbrella will also benefit from this app.
           </p>
+          <h3>The Approach</h3>
+          <p>
+            I started off storyboarding my problem. Later discussions with my
+            user groups gave me plenty of insights to work on. Grouping the user
+            personas makes life easy. Then I embarked on creating the journey
+            map to see how the app will function. More refinements got me to
+            sketching and wireframing which ended up in a high fidelity
+            prototype done on figma.
+          </p>
+          <p>
+            During the initial concept stages I did a survey to develop a better
+            understanding of the user group. The documented data helped in
+            creating user groups.
+          </p>
 
           <img className="image main" src={viyana_research} alt="" />
         </div>
