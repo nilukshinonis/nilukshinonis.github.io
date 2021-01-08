@@ -24,24 +24,17 @@ const IndexPage = () => (
             without interruption from rain they choose CoverMe. The app enables
             them to rent an umbrella and never worry about bad weather again.
           </p>
-          <p>
-            Rain and shine are two things Srilankans evolved with and respond
-            to, on a daily basis. Even though Sri Lanka experiences sun and
-            rain, the available weather protective products are limited. Locally
-            available products to get cover are umbrellas, rain jackets and
-            caps. Among these products umbrellas report 90% sales annually
-            (Rainco annual report, 2015).{' '}
-          </p>
-          <p>
-            Rainco Pvt Ltd is a leading umbrella manufacturer in Sri Lanka. 75%
-            annual sales of the company come from ladies compactable umbrellas.
-            Only 15% sales come from the gents‘ non compactable umbrellas. The
-            company wanted to understand why males didn’t buy umbrellas and see
-            if a product can be designed according to their need.
-          </p>
 
           <h3 className="major">The Problem</h3>
-          <h4>Why don’t males respond to weather protection devices?</h4>
+          <p>How might we get an umbrella when we need it?</p>
+          <p>
+            An umbrella is a might need product that’s needed in rain and
+            forgotten about otherwise. I have worked with a leading umbrella
+            manufacturer in Sri Lanka and pitched this app. I hope it will
+            benefit many who feel helpless at bad weather situations. A young
+            male is the primary target group for this app anyone who forgets
+            their umbrella will also benefit from this app.
+          </p>
 
           <img className="image main" src={viyana_research} alt="" />
         </div>
