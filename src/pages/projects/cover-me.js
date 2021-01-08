@@ -4,6 +4,7 @@ import Layout from '../../components/Layout';
 import coverme_usergroups from '../../assets/images/project_image_coverme_usergroups.png';
 import coverme_userflow from '../../assets/images/project_image_coverme_userflow.png';
 import coverme_storyboard from '../../assets/images/project_image_coverme_storyboard.png';
+import coverme_onboarding from '../../assets/images/project_image_coverme_onboarding.gif';
 import magri_frog_casestudyimage from '../../assets/images/project_image_govi_casestudy_img.png';
 import magri_frog_articleimage from '../../assets/images/project_image_govi_article_img.png';
 
@@ -68,7 +69,21 @@ const IndexPage = () => (
             app when designing.
           </p>
           <img className="image main" src={coverme_storyboard} alt="" />
-
+          <p>
+            <strong>Onboarding</strong>
+          </p>
+          <p>
+            The onboarding begins with the option to sign up or skip sign up and
+            experience the app. Experiencing the app will increase the
+            probability of purchasing the product. Once the user is in the map
+            showing closest coverme station eventually scanning the QR code will
+            redirect the user to register. Registration is a simple four step
+            process after experience from user feedback. Next comes up a quick
+            start pictorial guide easy to understand. Then comes a cashless
+            payment method selection based on most common practices in Sri
+            Lanka.
+          </p>
+          <img className="image main" src={coverme_onboarding} alt="" />
         </div>
       </div>
     </section>
