@@ -5,6 +5,7 @@ import coverme_usergroups from '../../assets/images/project_image_coverme_usergr
 import coverme_userflow from '../../assets/images/project_image_coverme_userflow.png';
 import coverme_storyboard from '../../assets/images/project_image_coverme_storyboard.png';
 import coverme_onboarding from '../../assets/images/project_image_coverme_onboarding.gif';
+import coverme_popupalerts from '../../assets/images/project_image_coverme_popupalerts.png';
 import magri_frog_casestudyimage from '../../assets/images/project_image_govi_casestudy_img.png';
 import magri_frog_articleimage from '../../assets/images/project_image_govi_article_img.png';
 
@@ -84,6 +85,16 @@ const IndexPage = () => (
             Lanka.
           </p>
           <img className="image main" src={coverme_onboarding} alt="" />
+          <p>
+            <strong>Pop-up Alerts</strong>
+          </p>
+          <p>
+            This interaction channels simplicity and requires the user to act or
+            ignore. A click on it will open the app map and show the closest
+            coverme station. Returning will also come with pop up notifications
+            reminding the user at intervals.
+          </p>
+          <img className="image main" src={coverme_popupalerts} alt="" />
         </div>
       </div>
     </section>
