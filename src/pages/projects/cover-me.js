@@ -95,6 +95,33 @@ const IndexPage = () => (
             reminding the user at intervals.
           </p>
           <img className="image main" src={coverme_popupalerts} alt="" />
+          <p>
+            <strong>Userflow</strong>
+          </p>
+          <p>
+            The structure of the app is based on rent and return fast. With a
+            touch of a button the QR code will scan the QR code in vending
+            machine and release a locked umbrella. It will be able to be used
+            for a time frame of 4 Hours. When the time is running up more
+            notifications will remind the user to return umbrella. A typical
+            user behavior of returning the umbrella within the allocated time
+            frame will reward the user with points.
+          </p>
+          <p>
+            Usually a wet umbrella is left to dry after use. This makes it easy
+            to forget. Coverme will send reminders when the user is 20m away
+            from the umbrella eliminating loss of product.{' '}
+          </p>
+          <p>
+            <strong>Style Guide</strong>
+          </p>
+          <p>
+            This is the first digital product under the Rainco Brand. To avoid
+            common misconceptions with brand coverme will act independently as a
+            fresh intervention. Keeping the rainco style guide in mind I created
+            a UX kit to work on. This helped maintain consistency in the design
+            process.
+          </p>
         </div>
       </div>
     </section>
