@@ -71,7 +71,7 @@ const IndexPage = () => (
               </a>
             </article>
             <article>
-              <a href="/#" className="image">
+              <a href="/projects/cover-me" className="image">
                 <img src={project_cover_me_image} alt="Cover Me App" />
               </a>
               <h3 className="major">Cover Me App</h3>
@@ -80,12 +80,12 @@ const IndexPage = () => (
                 forgets their umbrella. The app enables them to rent an umbrella
                 and never worry about bad weather again.
               </p>
-              <a href="/#" className="special">
+              <a href="/projects/cover-me" className="special">
                 See more about the Cover Me App
               </a>
             </article>
             <article>
-              <a href="/#" className="image">
+              <a href="/projects/mommy-halo" className="image">
                 <img src={project_halo_image} alt="Mommy Halo" />
               </a>
               <h3 className="major">Mommy Halo </h3>
@@ -93,7 +93,7 @@ const IndexPage = () => (
                 Mommy Halo is a donut shaped iPad holder for pregnant mothers to
                 safely and comfortably rest a tablet, on their pregnant belly.
               </p>
-              <a href="/#" className="special">
+              <a href="/projects/mommy-halo" className="special">
                 See more about Mommy Halo
               </a>
             </article>
