@@ -10,15 +10,20 @@ const IndexPage = () => (
     <section id="wrapper-viyana-quickshade">
       <header>
         <div className="inner">
-          <h2>Viyana Quick Shade</h2>
-          <p>Immediate cover in style</p>
+          <h2>Coverme</h2>
+          <p>Umbrella when you need it</p>
         </div>
       </header>
 
       <div className="wrapper">
         <div className="inner">
-          <h3 className="major">The Project</h3>
-          <p>A weather protection device for males in Sri Lanka</p>
+          <h3 className="major">The App</h3>
+          <p>
+            CoverMe is a mobile app for Sri Lankan youth in their late 20s who
+            forgets their umbrella. Since they want to get to their destination
+            without interruption from rain they choose CoverMe. The app enables
+            them to rent an umbrella and never worry about bad weather again.
+          </p>
           <p>
             Rain and shine are two things Srilankans evolved with and respond
             to, on a daily basis. Even though Sri Lanka experiences sun and
@@ -38,11 +43,7 @@ const IndexPage = () => (
           <h3 className="major">The Problem</h3>
           <h4>Why don’t males respond to weather protection devices?</h4>
 
-          
           <img className="image main" src={viyana_research} alt="" />
-          
-          
-
         </div>
       </div>
     </section>
