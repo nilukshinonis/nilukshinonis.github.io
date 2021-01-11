@@ -50,7 +50,27 @@ const IndexPage = () => (
             The project reached a milestone of collecting 50 metric tons of
             plastic by January 2019 and continues.
           </p>
-
+          <h3 className="major">The Team</h3>
+          <p>
+            Lee Bazalgette ( Director, Colombo Design Studio(CDS)),Ruwini Perera
+            ( Operations Manager, CDS),Leah Marikkar (Director, Dentsu Aegis
+            Network)Menusha Bennett ( Industrial Designer CDS), Clemens Thieler
+            ( Intern, CDS), Buddhika Muthukumarana (General Manager,Viridis
+            Plastic Recycling), Nisreen Rahmanjee( Head of Social
+            Entrepreneurship Project, John Keells Group),Monaka Perumal( Brand
+            manager, Dentsu Aegis Network), Jayananda Kalpana( Manufacturer,
+            KALPANA ADS (PVT) LTD)
+          </p>
+          <h3 className="major">My Role</h3>
+          <p>
+            As a product designer my input was mainly for the initial
+            brainstorming sessions of diverging and converging ideas for the
+            campaign that took a number of stages. My highest contribution to
+            the project was by conceptualising, designing, detailing and
+            fabricating the physical bin which was the tactile element of the
+            project.
+          </p>
+          
           <img className="image main" src={viyana_research} alt="" />
         </div>
       </div>
