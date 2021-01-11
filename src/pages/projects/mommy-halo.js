@@ -18,25 +18,41 @@ const IndexPage = () => (
       <div className="wrapper">
         <div className="inner">
           <h3 className="major">The Project</h3>
-          <p>A weather protection device for males in Sri Lanka</p>
           <p>
-            Rain and shine are two things Srilankans evolved with and respond
-            to, on a daily basis. Even though Sri Lanka experiences sun and
-            rain, the available weather protective products are limited. Locally
-            available products to get cover are umbrellas, rain jackets and
-            caps. Among these products umbrellas report 90% sales annually
-            (Rainco annual report, 2015).{' '}
-          </p>
-          <p>
-            Rainco Pvt Ltd is a leading umbrella manufacturer in Sri Lanka. 75%
-            annual sales of the company come from ladies compactable umbrellas.
-            Only 15% sales come from the gents‘ non compactable umbrellas. The
-            company wanted to understand why males didn’t buy umbrellas and see
-            if a product can be designed according to their need.
+            Mommy Halo is a donut shaped iPad holder for pregnant mothers to
+            safely and comfortably rest a tablet, on their pregnant belly
           </p>
 
           <h3 className="major">The Problem</h3>
-          <h4>Why don’t males respond to weather protection devices?</h4>
+          <p>
+            We began developing a product with a question <strong>“ How might we protect
+            an unborn baby the best way we can from EMF?”</strong>
+          </p>
+          <p>
+            Electromagnetic Field or simply EMF is nothing new. We have been
+            exposed to EMF from many different sources, such as earth's magnetic
+            field and the sun. Ever Since the discovery of electricity humans
+            have developed more and more devices that produce EMF( televisions,
+            microwaves, and radios to name a few. Recently cell phones and
+            tablets ). These small devices bring EMF closer and in more
+            concentrated doses to everyone.
+          </p>
+          <p>
+            Mommy Halo was created to shield EMF radiation from potentially
+            chronic occupational exposure caused by the use of phones and
+            tablets.
+          </p>
+
+          <h3 className="major">The Team</h3>
+          <p>
+            Lee Bazalgette ( Director, Colombo Design Studio(CDS)),Ruwini Perera
+            ( Operations Manager, CDS) Menusha Bennett ( Industrial Designer
+            CDS), Shafeek Akil ( Student Engineer, CDS), Anthony Ayers( Owner,
+            Baby Assured), Robin Ayers ( Co-Owner, Baby Assured), Buddhi
+            Paranamana(Project Manager, Hela Innovation)Malveena Jayawardena
+            (Executive, Hela Innovation), Michelle Balapitya ( Executive, Hela
+            Innovation)
+          </p>
 
           <img className="image main" src={viyana_research} alt="" />
         </div>
