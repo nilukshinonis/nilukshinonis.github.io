@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Layout from '../../components/Layout';
-import viyana_research from '../../assets/images/project_image_viyana_research.png';
+import plasticcycle_binmaking from '../../assets/images/project_image_plasticcycle_binmaking.png';
 import magri_frog_casestudyimage from '../../assets/images/project_image_govi_casestudy_img.png';
 import magri_frog_articleimage from '../../assets/images/project_image_govi_article_img.png';
 
@@ -70,8 +70,39 @@ const IndexPage = () => (
             fabricating the physical bin which was the tactile element of the
             project.
           </p>
-          
-          <img className="image main" src={viyana_research} alt="" />
+
+          <img className="image main" src={plasticcycle_binmaking} alt="" />
+          <h3 className="major">The Approach</h3>
+          <p>
+            After many design thinking sessions the team came up with a
+            comprehensive campaign to create awareness, start conversations and
+            collect plastic with a user friendly bin containing inviting
+            semiotics for all kinds of users to walk up to the bin and insert
+            their plastics.
+          </p>
+          <p>
+            We observed the behavior of users with the initial prototypes and
+            continued developing the bin design to suit the environments its
+            placed as well as perceive better will less user error.{' '}
+          </p>
+          <h3 className="major">Reflection</h3>
+          <p>
+            The campaign is a success and continues making big impacts and
+            lifestyle changes in Sri Lankas. 95% Sri Lankans are aware of the
+            campaign and many research shows that the perceptions on individual
+            disposal of waste has changed with the introduction of the bin to
+            the community.
+          </p>
+          <div className="video-wrapper">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/2IvgNcDtCf0"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
       </div>
     </section>
