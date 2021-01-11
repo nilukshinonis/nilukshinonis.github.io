@@ -68,21 +68,17 @@ const IndexPage = () => (
           <img className="image main" src={mommyhalo_roleplay} alt="" />
           <h3 className="major">The Approach</h3>
           <p>
-            The journey started with a bit of role play to understand the pain
-            points. Next quick sketch and blue foam models helped us understand
-            the practical and functional issues with ideas developed at
-            brainstorming sessions. We managed to get our prototypes tested by
-            real world expecting mothers and pitched the most viable designs.{' '}
-          </p>
-          <p>
-            The final design is a wireless,portable, incredibly comfortable
-            protector , you can take anywhere. We worked extensively for 14
+          We worked extensively for 14
             months to deliver a working prototype, including extensive testing
             and quality assurance. We started with a little bit of role playing
             in the studio and later gathered insights from concerned mothers.
             Our design splints of creating quick and rudimentary ideas
             ultimately ended up in the final design of the donut shaped
             ergonomic design that adjusts with growing bellies.
+          </p>
+          <p>
+            The final design is a wireless,portable, incredibly comfortable
+            protector , you can take anywhere.
           </p>
           <h3 className="major">Reflection</h3>
           <p>
