@@ -5,7 +5,7 @@ import mommyhalo_roleplay from '../../assets/images/project_image_mommyhalo_role
 
 const IndexPage = () => (
   <Layout fullMenu>
-    <section id="wrapper-viyana-quickshade">
+    <section className="wrapper-common" id="wrapper-mommy-halo">
       <header>
         <div className="inner">
           <h2>Mommy Halo</h2>
@@ -108,7 +108,9 @@ const IndexPage = () => (
               height="400"
               frameborder="0"
               allow="autoplay; fullscreen"
-              webkitallowfullscreen mozallowfullscreen allowfullscreen
+              webkitallowfullscreen
+              mozallowfullscreen
+              allowfullscreen
             ></iframe>
           </div>
         </div>

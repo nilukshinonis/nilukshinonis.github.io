@@ -5,7 +5,7 @@ import plasticcycle_binmaking from '../../assets/images/project_image_plasticcyc
 
 const IndexPage = () => (
   <Layout fullMenu>
-    <section id="wrapper-viyana-quickshade">
+    <section className="wrapper-common" id="wrapper-plastic-cycle">
       <header>
         <div className="inner">
           <h2>Plastic- cycle</h2>
