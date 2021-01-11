@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Layout from '../../components/Layout';
-import viyana_research from '../../assets/images/project_image_viyana_research.png';
+import mommyhalo_roleplay from '../../assets/images/project_image_mommyhalo_roleplay.png';
 import magri_frog_casestudyimage from '../../assets/images/project_image_govi_casestudy_img.png';
 import magri_frog_articleimage from '../../assets/images/project_image_govi_article_img.png';
 
@@ -25,8 +25,11 @@ const IndexPage = () => (
 
           <h3 className="major">The Problem</h3>
           <p>
-            We began developing a product with a question <strong>“ How might we protect
-            an unborn baby the best way we can from EMF?”</strong>
+            We began developing a product with a question{' '}
+            <strong>
+              “ How might we protect an unborn baby the best way we can from
+              EMF?”
+            </strong>
           </p>
           <p>
             Electromagnetic Field or simply EMF is nothing new. We have been
@@ -53,8 +56,45 @@ const IndexPage = () => (
             (Executive, Hela Innovation), Michelle Balapitya ( Executive, Hela
             Innovation)
           </p>
+          <h3 className="major">My Role</h3>
+          <p>
+            As an Industrial designer I contributed in research , role play,
+            ideation,concept generation,presentations in pitching to client and
+            stakeholders, rapid prototyping, sketching and refining concepts,
+            solidworks modelling and detailing, rendering, making of the
+            production drawings and monitoring the production process. I value
+            this project the most since it gave me the first experience on
+            creating design and utility patent documents.
+          </p>
 
-          <img className="image main" src={viyana_research} alt="" />
+          <img className="image main" src={mommyhalo_roleplay} alt="" />
+          <p>
+            The design is wireless meaning no charging is needed and it's
+            portable. You can take this incredibly comfortable protector ,
+            anywhere. We worked extensively for 14 months to deliver a working
+            prototype, including extensive testing and quality assurance. We
+            started with a little bit of role playing in the studio and later
+            gathered insights from concerned mothers. Our design splints of
+            creating quick and rudimentary ideas ultimately ended up in the
+            final design of the donut shaped ergonomic design that adjusts with
+            growing bellies.
+          </p>
+          <h3 className="major">Reflection</h3>
+          <p>
+            Mommy Halo is created with a global product certification EMC-EMF
+            safety approval.Its innovative and practical while keeping the user
+            connected to watch work or relax feeling protected.It began with 2
+            concerned parents questioning how to protect their unborn from
+            radiation and ended up as a kickstarter project that became a
+            success.
+          </p>
+          <p>
+            The project was an exercise of working closely with many
+            disciplines. I was very much involved from the beginning till the
+            end adding value with the technical and design input to the project.
+            Collaboration allowed us to make very quick changes and improve
+            problem solving accuracy and get the product to market.
+          </p>
         </div>
       </div>
     </section>
