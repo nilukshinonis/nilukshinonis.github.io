@@ -96,6 +96,7 @@ const IndexPage = () => (
             of emotional value to the product has made a clear change in user
             behaviour and disposal of design.
           </p>
+          <div className="video-wrapper">
           <iframe
             width="560"
             height="315"
@@ -104,6 +105,7 @@ const IndexPage = () => (
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           ></iframe>
+          </div>
         </div>
       </div>
     </section>
