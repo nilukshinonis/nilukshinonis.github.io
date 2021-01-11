@@ -76,7 +76,7 @@ const IndexPage = () => (
               </a>
               <h3 className="major">Cover Me App</h3>
               <p>
-                ‘CoverMe’ is a mobile app for a Sri Lankan office worker who
+                ‘CoverMe’ is a mobile app for a Sri Lankan youth who
                 forgets their umbrella. The app enables them to rent an umbrella
                 and never worry about bad weather again.
               </p>
