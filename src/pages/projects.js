@@ -98,7 +98,7 @@ const IndexPage = () => (
               </a>
             </article>
             <article>
-              <a href="/#" className="image">
+              <a href="/projects/plastic-cycle" className="image">
                 <img src={project_plasticcycle_image} alt="Plastic-cycle" />
               </a>
               <h3 className="major">Plastic-cycle</h3>
@@ -109,7 +109,7 @@ const IndexPage = () => (
                 Keells group plastic reduction and recycling initiative,but
                 helps create new consumer behaviour.
               </p>
-              <a href="/#" className="special">
+              <a href="/projects/plastic-cycle" className="special">
                 See more about Plastic-cycle
               </a>
             </article>
