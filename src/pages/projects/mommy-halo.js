@@ -68,16 +68,23 @@ const IndexPage = () => (
           </p>
 
           <img className="image main" src={mommyhalo_roleplay} alt="" />
+          <h3 className="major">The Approach</h3>
           <p>
-            The design is wireless meaning no charging is needed and it's
-            portable. You can take this incredibly comfortable protector ,
-            anywhere. We worked extensively for 14 months to deliver a working
-            prototype, including extensive testing and quality assurance. We
-            started with a little bit of role playing in the studio and later
-            gathered insights from concerned mothers. Our design splints of
-            creating quick and rudimentary ideas ultimately ended up in the
-            final design of the donut shaped ergonomic design that adjusts with
-            growing bellies.
+            The journey started with a bit of role play to understand the pain
+            points. Next quick sketch and blue foam models helped us understand
+            the practical and functional issues with ideas developed at
+            brainstorming sessions. We managed to get our prototypes tested by
+            real world expecting mothers and pitched the most viable designs.{' '}
+          </p>
+          <p>
+            The final design is a wireless,portable, incredibly comfortable
+            protector , you can take anywhere. We worked extensively for 14
+            months to deliver a working prototype, including extensive testing
+            and quality assurance. We started with a little bit of role playing
+            in the studio and later gathered insights from concerned mothers.
+            Our design splints of creating quick and rudimentary ideas
+            ultimately ended up in the final design of the donut shaped
+            ergonomic design that adjusts with growing bellies.
           </p>
           <h3 className="major">Reflection</h3>
           <p>
@@ -95,6 +102,23 @@ const IndexPage = () => (
             Collaboration allowed us to make very quick changes and improve
             problem solving accuracy and get the product to market.
           </p>
+          <div className="video-wrapper">
+            <iframe
+              src="https://player.vimeo.com/video/302935624"
+              width="640"
+              height="360"
+              frameborder="0"
+              allow="autoplay; fullscreen"
+              allowfullscreen
+            ></iframe>
+            <p>
+              <a href="https://vimeo.com/302935624">
+                BabyAssured - Mommy Halo (Kickstarter)
+              </a>{' '}
+              from <a href="https://vimeo.com/user92165863">BabyAssured</a> on{' '}
+              <a href="https://vimeo.com">Vimeo</a>.
+            </p>
+          </div>
         </div>
       </div>
     </section>
