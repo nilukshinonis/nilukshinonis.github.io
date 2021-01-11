@@ -22,11 +22,11 @@ const IndexPage = () => (
             Plastic-cycle is an ongoing plastic disposal awareness campaign in
             Sri Lanka led by John Keels group. The campaign is a system design
             to create awareness and spark a recycling culture to get more people
-            to Reduce, Reuse or Recycle their plastic waste. The focus of the
-            project is a carefully designed bin placed all over the island in
-            the hope of collecting and recycling plastics. The bin is not only
-            an icon but also an internal tool for the company to help create new
-            consumer behaviour and rethink how we dispose of plastic.
+            to Reduce, Reuse or Recycle their plastic waste. The focal point of
+            the project is a carefully designed bin placed all over the island
+            in the hope of collecting and recycling plastics. The bin is not
+            only an icon but also an internal tool for the company to help
+            create new consumer behaviour and rethink how we dispose of plastic.
           </p>
 
           <h3 className="major">The Problem</h3>
@@ -88,7 +88,7 @@ const IndexPage = () => (
           <h3 className="major">Reflection</h3>
           <p>
             The campaign is a success and continues making big impacts and
-            lifestyle changes in Sri Lankas. 95% Sri Lankans are aware of the
+            lifestyle changes in Sri Lankans. 95% Sri Lankans are aware of the
             campaign and many research shows that the perceptions on individual
             disposal of waste has changed with the introduction of the bin to
             the community.
