@@ -2,8 +2,6 @@ import React from 'react';
 
 import Layout from '../../components/Layout';
 import plasticcycle_binmaking from '../../assets/images/project_image_plasticcycle_binmaking.png';
-import magri_frog_casestudyimage from '../../assets/images/project_image_govi_casestudy_img.png';
-import magri_frog_articleimage from '../../assets/images/project_image_govi_article_img.png';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -95,6 +93,7 @@ const IndexPage = () => (
           </p>
           <div className="video-wrapper">
             <iframe
+              title="Plastic Cycle Intro"
               width="560"
               height="315"
               src="https://www.youtube.com/embed/2IvgNcDtCf0"

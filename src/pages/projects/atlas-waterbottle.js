@@ -3,12 +3,10 @@ import React from 'react';
 import Layout from '../../components/Layout';
 import atlas_waterbottlesketch from '../../assets/images/project_image_atlas_waterbottle_sketch.png';
 import atlas_waterbottleprototype from '../../assets/images/project_image_atlas_waterbottle_prototypes.png';
-import magri_frog_casestudyimage from '../../assets/images/project_image_govi_casestudy_img.png';
-import magri_frog_articleimage from '../../assets/images/project_image_govi_article_img.png';
 
 const IndexPage = () => (
   <Layout fullMenu>
-    <section id="wrapper-viyana-quickshade">
+    <section id="wrapper-atlas-waterbottle"> 
       <header>
         <div className="inner">
           <h2>Atlas Water Bottles</h2>
@@ -98,6 +96,7 @@ const IndexPage = () => (
           </p>
           <div className="video-wrapper">
           <iframe
+            title="Atlas Water Bottle"
             width="560"
             height="315"
             src="https://www.youtube.com/embed/ez8wF9Ra8Ek"

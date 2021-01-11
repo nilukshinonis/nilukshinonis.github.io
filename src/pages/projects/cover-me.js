@@ -7,12 +7,10 @@ import coverme_storyboard from '../../assets/images/project_image_coverme_storyb
 import coverme_onboarding from '../../assets/images/project_image_coverme_onboarding.gif';
 import coverme_popupalerts from '../../assets/images/project_image_coverme_popupalerts.png';
 import coverme_graphicelements from '../../assets/images/project_image_coverme_graphicelements.png';
-import magri_frog_casestudyimage from '../../assets/images/project_image_govi_casestudy_img.png';
-import magri_frog_articleimage from '../../assets/images/project_image_govi_article_img.png';
 
 const IndexPage = () => (
   <Layout fullMenu>
-    <section id="wrapper-viyana-quickshade">
+    <section id="wrapper-cover-me">
       <header>
         <div className="inner">
           <h2>Coverme</h2>

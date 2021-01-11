@@ -6,8 +6,6 @@ import viyana_sketch from '../../assets/images/project_image_viyana_sketch.png';
 import viyana_joinspic from '../../assets/images/project_image_viyana_joinspic.png';
 import viyana_charithpic from '../../assets/images/project_image_viyana_charithpic.png';
 import viyana_shenalpic from '../../assets/images/project_image_viyana_shenalpic.png';
-import magri_frog_casestudyimage from '../../assets/images/project_image_govi_casestudy_img.png';
-import magri_frog_articleimage from '../../assets/images/project_image_govi_article_img.png';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -142,8 +140,9 @@ const IndexPage = () => (
             University of Moratuwa. There is a possibility that Rainco will
             produce this later on.
           </p>
-          <div className="video-wrapper">
+          <div className="video-wrapper vimeo">
             <iframe
+              title="Viyana Quick Shade intro"
               width="560"
               height="315"
               src="https://www.youtube.com/embed/HzoyYiMdcUs"
