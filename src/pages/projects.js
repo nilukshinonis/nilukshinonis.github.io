@@ -114,7 +114,7 @@ const IndexPage = () => (
               </a>
             </article>
             <article>
-              <a href="/#" className="image">
+              <a href="/projects/atlas-waterbottle" className="image">
                 <img
                   src={project_atlas_bottle_image}
                   alt="Atlas Water Bottles"
@@ -126,7 +126,7 @@ const IndexPage = () => (
                 and manufactured bottles in Srilanka that's fun and sporty,
                 encouraging kids to drink more water.
               </p>
-              <a href="/#" className="special">
+              <a href="/projects/atlas-waterbottle" className="special">
                 See more about Atlas Water Bottles
               </a>
             </article>
