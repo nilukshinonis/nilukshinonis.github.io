@@ -2,8 +2,6 @@ import React from 'react';
 
 import Layout from '../../components/Layout';
 import mommyhalo_roleplay from '../../assets/images/project_image_mommyhalo_roleplay.png';
-import magri_frog_casestudyimage from '../../assets/images/project_image_govi_casestudy_img.png';
-import magri_frog_articleimage from '../../assets/images/project_image_govi_article_img.png';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -104,20 +102,14 @@ const IndexPage = () => (
           </p>
           <div className="video-wrapper">
             <iframe
-              src="https://player.vimeo.com/video/302935624"
-              width="640"
-              height="360"
+              title="Mommy Halo Intro"
+              src="//player.vimeo.com/video/302935624?byline=0&amp;portrait=0"
+              width="500"
+              height="400"
               frameborder="0"
               allow="autoplay; fullscreen"
-              allowfullscreen
+              webkitallowfullscreen mozallowfullscreen allowfullscreen
             ></iframe>
-            <p>
-              <a href="https://vimeo.com/302935624">
-                BabyAssured - Mommy Halo (Kickstarter)
-              </a>{' '}
-              from <a href="https://vimeo.com/user92165863">BabyAssured</a> on{' '}
-              <a href="https://vimeo.com">Vimeo</a>.
-            </p>
           </div>
         </div>
       </div>
