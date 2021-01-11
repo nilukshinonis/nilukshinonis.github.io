@@ -10,8 +10,8 @@ const IndexPage = () => (
     <section id="wrapper-viyana-quickshade">
       <header>
         <div className="inner">
-          <h2>Viyana Quick Shade</h2>
-          <p>Immediate cover in style</p>
+          <h2>Mommy Halo</h2>
+          <p>Protection from radiation with comfort</p>
         </div>
       </header>
 
@@ -38,11 +38,7 @@ const IndexPage = () => (
           <h3 className="major">The Problem</h3>
           <h4>Why don’t males respond to weather protection devices?</h4>
 
-          
           <img className="image main" src={viyana_research} alt="" />
-          
-          
-
         </div>
       </div>
     </section>
