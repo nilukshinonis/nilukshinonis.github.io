@@ -10,7 +10,7 @@ import coverme_graphicelements from '../../assets/images/project_image_coverme_g
 
 const IndexPage = () => (
   <Layout fullMenu>
-    <section id="wrapper-cover-me">
+    <section className="wrapper-common" id="wrapper-cover-me">
       <header>
         <div className="inner">
           <h2>Coverme</h2>

@@ -6,7 +6,7 @@ import atlas_waterbottleprototype from '../../assets/images/project_image_atlas_
 
 const IndexPage = () => (
   <Layout fullMenu>
-    <section id="wrapper-atlas-waterbottle"> 
+    <section className="wrapper-common" id="wrapper-atlas-waterbottle">
       <header>
         <div className="inner">
           <h2>Atlas Water Bottles</h2>
@@ -95,15 +95,15 @@ const IndexPage = () => (
             behaviour and disposal of design.
           </p>
           <div className="video-wrapper">
-          <iframe
-            title="Atlas Water Bottle"
-            width="560"
-            height="315"
-            src="https://www.youtube.com/embed/ez8wF9Ra8Ek"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
+            <iframe
+              title="Atlas Water Bottle"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/ez8wF9Ra8Ek"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
           </div>
         </div>
       </div>

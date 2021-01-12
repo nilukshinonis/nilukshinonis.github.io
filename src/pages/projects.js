@@ -74,11 +74,13 @@ const IndexPage = () => (
               <a href="/projects/cover-me" className="image">
                 <img src={project_cover_me_image} alt="Cover Me App" />
               </a>
-              <h3 className="major">Cover Me App</h3>
+              <a href="/projects/cover-me">
+                <h3 className="major">Cover Me App</h3>
+              </a>
               <p>
-                ‘CoverMe’ is a mobile app for a Sri Lankan youth who
-                forgets their umbrella. The app enables them to rent an umbrella
-                and never worry about bad weather again.
+                ‘CoverMe’ is a mobile app for a Sri Lankan youth who forgets
+                their umbrella. The app enables them to rent an umbrella and
+                never worry about bad weather again.
               </p>
               <a href="/projects/cover-me" className="special">
                 See more about the Cover Me App
@@ -88,7 +90,9 @@ const IndexPage = () => (
               <a href="/projects/mommy-halo" className="image">
                 <img src={project_halo_image} alt="Mommy Halo" />
               </a>
-              <h3 className="major">Mommy Halo </h3>
+              <a href="/projects/mommy-halo">
+                <h3 className="major">Mommy Halo </h3>
+              </a>
               <p>
                 Mommy Halo is a donut shaped iPad holder for pregnant mothers to
                 safely and comfortably rest a tablet, on their pregnant belly.
@@ -101,7 +105,9 @@ const IndexPage = () => (
               <a href="/projects/plastic-cycle" className="image">
                 <img src={project_plasticcycle_image} alt="Plastic-cycle" />
               </a>
-              <h3 className="major">Plastic-cycle</h3>
+              <a href="/projects/plastic-cycle">
+                <h3 className="major">Plastic-cycle</h3>
+              </a>
               <p>
                 Plastic-cyle bin is a plastic collector that is placed all over
                 Sri Lanka in the hope of collecting and recycling plastics. The
@@ -120,7 +126,9 @@ const IndexPage = () => (
                   alt="Atlas Water Bottles"
                 />
               </a>
-              <h3 className="major">Atlas Water Bottles</h3>
+              <a href="/projects/atlas-waterbottle">
+                <h3 className="major">Atlas Water Bottles</h3>
+              </a>
               <p>
                 Atlas water bottles are the first mass scale locally designed
                 and manufactured bottles in Srilanka that's fun and sporty,
