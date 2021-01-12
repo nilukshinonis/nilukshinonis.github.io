@@ -34,13 +34,13 @@ const IndexPage = () => (
             plus years.
           </p>
           <p>
-            I am called ‘Pettah Ferret’ because at my previous job in Colombo
+            I am called ‘Pettah Ferret’ because in my previous job at Colombo
             Design Studio I was sent on missions to a city called Pettah in Sri
             Lanka where I searched every nook and corner and found what we
             needed. I can basically get things done.
           </p>
           <p>
-            Checkout my{' '}
+            Check out my{' '}
             <a href={cv} target="_blank" rel="noopener noreferrer">
               <span style={cvStyle}>CV</span>
             </a>{' '}
