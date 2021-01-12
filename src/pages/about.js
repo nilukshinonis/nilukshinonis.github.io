@@ -24,7 +24,7 @@ const IndexPage = () => (
       <div className="wrapper">
         <div className="inner">
           <p>
-            I am a seasoned industrial designer who graduated in product design
+            I am a seasoned industrial designer who graduated in Product Design
             (first class with a gold medal; cough!)
           </p>
 
