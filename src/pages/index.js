@@ -6,6 +6,11 @@ import Layout from '../components/Layout';
 import icon from '../assets/images/website-icon.png';
 
 import config from '../../config';
+
+
+const noniscooks = "https://www.instagram.com/noniscooks/";
+const nn_handmadefabric = "https://www.instagram.com/nn_handmadefabric/";
+
 const IndexPage = (props) => (
   <Layout>
     <section id="banner">
@@ -60,7 +65,8 @@ const IndexPage = (props) => (
           <div className="content">
             <h2 className="major">When I don’t have my design cap on</h2>
             <p>
-              I cook, knit, sew, lecture and even have my own tie and dye brand.
+              I <a href={noniscooks} target="_blank" rel="noopener noreferrer">cook</a> , knit, sew, lecture 
+              and even have my own <a href={nn_handmadefabric} target="_blank" rel="noopener noreferrer">tie and dye brand</a>.
             </p>
             <Link href="/about" className="special">
               Contact me

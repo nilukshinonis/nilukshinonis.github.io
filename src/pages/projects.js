@@ -1,5 +1,6 @@
 import React from 'react';
-import {Link} from 'gatsby';
+import {Link, graphql} from 'gatsby';
+import Img from 'gatsby-image';
 
 import Layout from '../components/Layout';
 import project_govi_mithuru_image from '../assets/images/project_govi_mithuru.png';
@@ -9,7 +10,7 @@ import project_halo_image from '../assets/images/project_halo.png';
 import project_plasticcycle_image from '../assets/images/project_plasticycle.png';
 import project_atlas_bottle_image from '../assets/images/project_atlas_bottle.png';
 
-const IndexPage = () => (
+const ProjectsPage = (props) => (
   <Layout fullMenu>
     <section id="wrapper">
       <header>
@@ -146,4 +147,4 @@ const IndexPage = () => (
   </Layout>
 );
 
-export default IndexPage;
+export default ProjectsPage;
