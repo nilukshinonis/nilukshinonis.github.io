@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from 'gatsby';
 import Layout from '../components/Layout';
 
-import icon from '../assets/img/website-icon.png';
+import icon from '../assets/images/website-icon.png';
 import frame_1 from '../assets/images/frame_1.png';
 import frame_2 from '../assets/images/frame_2.png';
 import frame_3 from '../assets/images/frame_3.png';
