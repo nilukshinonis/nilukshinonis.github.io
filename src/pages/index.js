@@ -1,14 +1,12 @@
 import React from 'react';
-import {Link} from 'gatsby';
+import {Link, graphql} from 'gatsby';
+import Img from 'gatsby-image';
 import Layout from '../components/Layout';
 
 import icon from '../assets/images/website-icon.png';
-import frame_1 from '../assets/images/frame_1.png';
-import frame_2 from '../assets/images/frame_2.png';
-import frame_3 from '../assets/images/frame_3.png';
 
 import config from '../../config';
-const IndexPage = () => (
+const IndexPage = (props) => (
   <Layout>
     <section id="banner">
       <div className="inner">
@@ -24,7 +22,7 @@ const IndexPage = () => (
       <section id="one" className="wrapper spotlight style1">
         <div className="inner">
           <Link to="/about" className="image">
-            <img src={frame_1} alt="" />
+            <Img fluid={props.data.frame_1.childImageSharp.fluid} />
           </Link>
           <div className="content">
             <h2 className="major">I love to explore</h2>
@@ -39,7 +37,7 @@ const IndexPage = () => (
       <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
           <Link to="/projects" className="image">
-            <img src={frame_2} alt="" />
+            <Img fluid={props.data.frame_2.childImageSharp.fluid} />
           </Link>
           <div className="content">
             <h2 className="major">I think</h2>
@@ -57,7 +55,7 @@ const IndexPage = () => (
       <section id="three" className="wrapper spotlight style3">
         <div className="inner">
           <Link to="/about" className="image">
-            <img src={frame_3} alt="" />
+            <Img fluid={props.data.frame_3.childImageSharp.fluid} />
           </Link>
           <div className="content">
             <h2 className="major">When I don’t have my design cap on</h2>
@@ -70,81 +68,32 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-
-      {/* <section id="four" className="wrapper alt style1">
-        <div className="inner">
-          <h2 className="major">Vitae phasellus</h2>
-          <p>
-            Cras mattis ante fermentum, malesuada neque vitae, eleifend erat.
-            Phasellus non pulvinar erat. Fusce tincidunt, nisl eget mattis
-            egestas, purus ipsum consequat orci, sit amet lobortis lorem lacus
-            in tellus. Sed ac elementum arcu. Quisque placerat auctor laoreet.
-          </p>
-          <section className="features">
-            <article>
-              <a href="/#" className="image">
-                <img src={pic4} alt="" />
-              </a>
-              <h3 className="major">Sed feugiat lorem</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-            <article>
-              <a href="/#" className="image">
-                <img src={pic5} alt="" />
-              </a>
-              <h3 className="major">Nisl placerat</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-            <article>
-              <a href="/#" className="image">
-                <img src={pic6} alt="" />
-              </a>
-              <h3 className="major">Ante fermentum</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-            <article>
-              <a href="/#" className="image">
-                <img src={pic7} alt="" />
-              </a>
-              <h3 className="major">Fusce consequat</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing vehicula id
-                nulla dignissim dapibus ultrices.
-              </p>
-              <a href="/#" className="special">
-                Learn more
-              </a>
-            </article>
-          </section>
-          <ul className="actions">
-            <li>
-              <a href="/#" className="button">
-                Browse All
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section> */}
     </section>
   </Layout>
 );
 
 export default IndexPage;
+
+export const fluidImage = graphql`
+fragment fluidImage on File {
+  childImageSharp {
+    fluid(maxWidth: 1000) {
+      ...GatsbyImageSharpFluid_withWebp
+    }
+  }
+}
+`;
+
+export const pageQuery = graphql`
+  query {
+    frame_1: file(relativePath: { eq: "frame_1.png" }) {
+      ...fluidImage
+    }
+    frame_2: file(relativePath: { eq: "frame_2.png" }) {
+      ...fluidImage
+    }
+    frame_3: file(relativePath: { eq: "frame_3.png" }) {
+      ...fluidImage
+    }
+  }
+`
