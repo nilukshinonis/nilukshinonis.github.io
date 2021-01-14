@@ -1,4 +1,5 @@
 module.exports = {
+  siteUrl: 'https://nilukshinonis.com',
   siteTitle: 'Nilukshi Nonis', // <title>
   manifestName: 'Nilukshi Nonis',
   manifestShortName: 'NN', // max 12 characters

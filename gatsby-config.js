@@ -3,6 +3,7 @@ const config = require('./config');
 module.exports = {
   pathPrefix: config.pathPrefix,
   siteMetadata: {
+    siteUrl: config.siteUrl,
     title: config.siteTitle,
   },
   plugins: [
@@ -21,5 +22,16 @@ module.exports = {
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
+    {
+      resolve: `gatsby-plugin-advanced-sitemap`,
+      options: {
+        createLinkInHead: true,
+        exclude: [
+          `/components`,
+          /(\/)*404*/,
+          `/offline-plugin-app-shell-fallback`,
+        ]
+      }
+    },
   ],
 };
