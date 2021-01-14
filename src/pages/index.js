@@ -1,20 +1,11 @@
 import React from 'react';
-
+import {Link} from 'gatsby';
 import Layout from '../components/Layout';
 
 import icon from '../assets/img/website-icon.png';
-
-// import pic1 from '../assets/images/pic01.jpg';
-// import pic2 from '../assets/images/pic02.jpg';
 import frame_1 from '../assets/images/frame_1.png';
 import frame_2 from '../assets/images/frame_2.png';
 import frame_3 from '../assets/images/frame_3.png';
-
-// import pic3 from '../assets/images/pic03.jpg';
-// import pic4 from '../assets/images/pic04.jpg';
-// import pic5 from '../assets/images/pic05.jpg';
-// import pic6 from '../assets/images/pic06.jpg';
-// import pic7 from '../assets/images/pic07.jpg';
 
 import config from '../../config';
 const IndexPage = () => (
@@ -23,7 +14,6 @@ const IndexPage = () => (
       <div className="inner">
         <div className="logo">
           <img className="icon" src={icon} alt="" />
-          {/* <span className="icon fa-diamond"></span> */}
         </div>
         <h2>{config.heading}</h2>
         <p>{config.subHeading}</p>
@@ -33,50 +23,50 @@ const IndexPage = () => (
     <section id="wrapper">
       <section id="one" className="wrapper spotlight style1">
         <div className="inner">
-          <a href="/about" className="image">
+          <Link to="/about" className="image">
             <img src={frame_1} alt="" />
-          </a>
+          </Link>
           <div className="content">
             <h2 className="major">I love to explore</h2>
             <p>Some call me ‘Pettah Ferret’.</p>
-            <a href="/about" className="special">
+            <Link to="/about" className="special">
               Know about me
-            </a>
+            </Link>
           </div>
         </div>
       </section>
 
       <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
-          <a href="/projects" className="image">
+          <Link to="/projects" className="image">
             <img src={frame_2} alt="" />
-          </a>
+          </Link>
           <div className="content">
             <h2 className="major">I think</h2>
             <p>
               Design has to be honest, delightful and less impactful to the
               environment.
             </p>
-            <a href="/projects" className="special">
+            <Link to="/projects" className="special">
               See my work
-            </a>
+            </Link>
           </div>
         </div>
       </section>
 
       <section id="three" className="wrapper spotlight style3">
         <div className="inner">
-          <a href="/#" className="image">
+          <Link to="/about" className="image">
             <img src={frame_3} alt="" />
-          </a>
+          </Link>
           <div className="content">
             <h2 className="major">When I don’t have my design cap on</h2>
             <p>
               I cook, knit, sew, lecture and even have my own tie and dye brand.
             </p>
-            <a href="/#" className="special">
+            <Link href="/about" className="special">
               Contact me
-            </a>
+            </Link>
           </div>
         </div>
       </section>
