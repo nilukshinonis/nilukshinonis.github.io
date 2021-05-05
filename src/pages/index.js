@@ -26,21 +26,6 @@ const IndexPage = (props) => (
     <section id="wrapper">
       <section id="one" className="wrapper spotlight style1">
         <div className="inner">
-          <Link to="/about" className="image">
-            <Img fluid={props.data.frame_1.childImageSharp.fluid} />
-          </Link>
-          <div className="content">
-            <h2 className="major">I love to explore</h2>
-            <p>Some call me ‘Pettah Ferret’.</p>
-            <Link to="/about" className="special">
-              Know about me
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      <section id="two" className="wrapper alt spotlight style2">
-        <div className="inner">
           <Link to="/projects" className="image">
             <Img fluid={props.data.frame_2.childImageSharp.fluid} />
           </Link>
@@ -56,7 +41,20 @@ const IndexPage = (props) => (
           </div>
         </div>
       </section>
-
+      <section id="two" className="wrapper alt spotlight style2">
+        <div className="inner">
+          <Link to="/about" className="image">
+            <Img fluid={props.data.frame_1.childImageSharp.fluid} />
+          </Link>
+          <div className="content">
+            <h2 className="major">I love to explore</h2>
+            <p>Some call me ‘Pettah Ferret’.</p>
+            <Link to="/about" className="special">
+              Know about me
+            </Link>
+          </div>
+        </div>
+      </section>
       <section id="three" className="wrapper spotlight style3">
         <div className="inner">
           <Link to="/about" className="image">

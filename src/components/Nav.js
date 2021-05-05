@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import cv from '../../static/CV_Nilukshi_Nonis.pdf';
 
 export default function Nav({ onMenuToggle = () => {} }) {
   return (
@@ -36,6 +37,11 @@ export default function Nav({ onMenuToggle = () => {} }) {
             >
               Projects
             </Link>
+          </li>
+          <li>
+            <a href={cv} target="_blank" rel="noopener noreferrer">
+                CV
+              </a>
           </li>
         </ul>
         <a
