@@ -15,7 +15,7 @@ import magri_frog_articleimage from '../../assets/images/project_image_govi_arti
 
 const IndexPage = () => (
   <Layout fullMenu>
-    <section id="wrapper-govi-mithuru">
+    <section className="wrapper-common" id="wrapper-govi-mithuru">
       <header>
         <div className="inner">
           <h2>Govi Mithuru Service App</h2>

@@ -19,7 +19,7 @@ import snacker_user_persona_image from '../../assets/images/project_image_snacke
 
 const IndexPage = () => (
   <Layout fullMenu>
-    <section id="wrapper-govi-mithuru">
+    <section className="wrapper-common" id="wrapper-snacker-app">
       <header>
         <div className="inner">
           <h2>Snacker App</h2>
