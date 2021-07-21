@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link, graphql} from 'gatsby';
+import { Link, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
 import Layout from '../components/Layout';
@@ -9,8 +9,10 @@ import project_cover_me_image from '../assets/images/project_cover_me.png';
 import project_halo_image from '../assets/images/project_halo.png';
 import project_plasticcycle_image from '../assets/images/project_plasticycle.png';
 import project_atlas_bottle_image from '../assets/images/project_atlas_bottle.png';
+import project_snacker_app_image from '../assets/images/project_snacker.png';
+import project_pet_shelter_website_image from '../assets/images/project_petshelter.png';
 
-const ProjectsPage = (props) => (
+const ProjectsPage = props => (
   <Layout fullMenu>
     <section id="wrapper">
       <header>
@@ -53,6 +55,45 @@ const ProjectsPage = (props) => (
                 family nutrition.
               </p>
               <Link to="/projects/govi-mithuru" className="special">
+                See more about Govi Mithuru
+              </Link>
+            </article>
+            <article>
+              <Link to="/projects/snacker-app" className="image">
+                <img src={project_snacker_app_image} alt="Snacker App" />
+              </Link>
+              <Link to="/projects/snacker-app">
+                <h3 className="major">Snacker App</h3>
+              </Link>
+              <p>
+                'Govi Mithuru' (ගොවි මිතුරු) service app, is a mobile advisory
+                service for farmers and home growers in Sri Lanka. The app
+                provides customized and timely advice to farmers regarding land
+                preparation, cultivation, crop protection, harvest and improved
+                family nutrition.
+              </p>
+              <Link to="/projects/snacker-app" className="special">
+                See more about Govi Mithuru
+              </Link>
+            </article>
+            <article>
+              <Link to="/projects/pet-shelter-website" className="image">
+                <img
+                  src={project_pet_shelter_website_image}
+                  alt="Snacker App"
+                />
+              </Link>
+              <Link to="/projects/pet-shelter-website">
+                <h3 className="major">Pet Shelter Website</h3>
+              </Link>
+              <p>
+                'Govi Mithuru' (ගොවි මිතුරු) service app, is a mobile advisory
+                service for farmers and home growers in Sri Lanka. The app
+                provides customized and timely advice to farmers regarding land
+                preparation, cultivation, crop protection, harvest and improved
+                family nutrition.
+              </p>
+              <Link to="/projects/pet-shelter-website" className="special">
                 See more about Govi Mithuru
               </Link>
             </article>
@@ -121,7 +162,7 @@ const ProjectsPage = (props) => (
                 See more about Plastic-cycle
               </Link>
             </article>
-            <article>
+            {/* <article>
               <Link to="/projects/atlas-waterbottle" className="image">
                 <img
                   src={project_atlas_bottle_image}
@@ -139,7 +180,7 @@ const ProjectsPage = (props) => (
               <Link to="/projects/atlas-waterbottle" className="special">
                 See more about Atlas Water Bottles
               </Link>
-            </article>
+            </article> */}
           </section>
         </div>
       </div>
