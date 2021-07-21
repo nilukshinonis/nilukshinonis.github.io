@@ -23,9 +23,9 @@ export default function Nav({ onMenuToggle = () => {} }) {
               onClick={e => {
                 onMenuToggle();
               }}
-              to="/about"
+              to="/projects"
             >
-              About Me
+              Projects
             </Link>
           </li>
           <li>
@@ -33,9 +33,9 @@ export default function Nav({ onMenuToggle = () => {} }) {
               onClick={e => {
                 onMenuToggle();
               }}
-              to="/projects"
+              to="/about"
             >
-              Projects
+              About Me
             </Link>
           </li>
           <li>
