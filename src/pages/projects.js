@@ -66,14 +66,12 @@ const ProjectsPage = props => (
                 <h3 className="major">Snacker App</h3>
               </Link>
               <p>
-                'Govi Mithuru' (ගොවි මිතුරු) service app, is a mobile advisory
-                service for farmers and home growers in Sri Lanka. The app
-                provides customized and timely advice to farmers regarding land
-                preparation, cultivation, crop protection, harvest and improved
-                family nutrition.
+                ‘Snacker’ is a snack ordering app for movie goers to pre order
+                snacks and not wait in ques anymore! It's quick, fun, convenient
+                and has the ability to even split the bill among a group.
               </p>
               <Link to="/projects/snacker-app" className="special">
-                See more about Govi Mithuru
+                See more about Snacker app
               </Link>
             </article>
             <article>
@@ -87,14 +85,14 @@ const ProjectsPage = props => (
                 <h3 className="major">Pet Shelter Website</h3>
               </Link>
               <p>
-                'Govi Mithuru' (ගොවි මිතුරු) service app, is a mobile advisory
-                service for farmers and home growers in Sri Lanka. The app
-                provides customized and timely advice to farmers regarding land
-                preparation, cultivation, crop protection, harvest and improved
-                family nutrition.
+                Pet shelter website is a responsive website design for a pet
+                shelter in Berlin. The website not only provides information
+                about the available animals for adoption but also provides the
+                service to fix appointments and fill paperwork at the user's
+                convenience.
               </p>
               <Link to="/projects/pet-shelter-website" className="special">
-                See more about Govi Mithuru
+                See more about Pet shelter website
               </Link>
             </article>
             <article>

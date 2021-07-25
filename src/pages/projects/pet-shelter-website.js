@@ -22,6 +22,13 @@ import petadoption_user_personas_gif from '../../assets/images/petadoption_user_
 import petadoption_userstory_problemstatement from '../../assets/images/project_image_petadoption_user_story_problem_statement.png';
 import petadoption_user_painpoints from '../../assets/images/project_image_petadoption_user_pain_points.png';
 import petadoption_site_map from '../../assets/images/project_image_petadoption_site_map.png';
+import petadoption_paper_wireframes from '../../assets/images/project_image_petadoption_paper_wireframes.png';
+import petadoption_digital_wireframes from '../../assets/images/project_image_petadoption_digital_wireframes.png';
+import petadoption_affinity_diagram from '../../assets/images/project_image_petadoption_affinity_diagram.png';
+import petadoption_lofi_prototype from '../../assets/images/project_image_petadoption_lofi_prototype.png';
+import petadoption_after_changes from '../../assets/images/project_image_petadoption_after_changes.png';
+import petadoption_ab_testing from '../../assets/images/project_image_petadoption_ab_testing.png';
+import petadoption_responsive_mockup from '../../assets/images/project_image_petadoption_responsive_mockup.png';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -131,117 +138,151 @@ const IndexPage = () => (
             and where the information they want is in the website.
           </p>
           <img className="image main" src={petadoption_site_map} alt="" />
-          <p>
-            User journey maps helped understand how to build the user flow and
-            ideate to make the ordering of snacks seamless and fun.
-          </p>
-          <img className="image main" src={snacker_user_journey_map} alt="" />
-          <p>
-            User journey maps helped understand how to build the user flow and
-            ideate to make the ordering of snacks seamless and fun.
-          </p>
+
           <h3 className="major">Ideate</h3>
 
           <h3>Sketches and wireframes</h3>
           <p>
-            Next I was focused on coming up with many possible ideas to
-            incorporate into the app design. Taking time to draft iterations of
-            each screen of the app on paper ensured that elements that made it
-            to digital wireframes would be well-suited to address user pain
-            points. For the Home screen I prioritized a quick and easy ordering
-            process with a chatbot to help users save time and order their
-            snacks. Stars were used to mark the elements of each sketch that
-            would be used in the wireframes.
+            Quick hand drawn paper wireframes helped the creative juices flow in
+            the process and build many possible ways of designing.
           </p>
 
-          <img className="image main" src={snacker_paper_wireframes} alt="" />
+          <img
+            className="image main"
+            src={petadoption_paper_wireframes}
+            alt=""
+          />
           <h3>Digital Wireframes and Lo-fi Prototypes</h3>
           <p>
             The next task was to do digital wireframes. This helped visualize
-            how the design will look as I create the user interface and show
-            areas to improve. I made sure to base screen designs on feedback and
-            findings from the initial user research. Quick and easy access were
-            key user needs to address in the design followed by the app
-            supporting assistive technologies.
+            how the design will look and show areas to improve. The user was
+            always placed as priority and every element was improved according
+            to feedback from users.
           </p>
-          <img className="image main" src={snacker_digital_wireframes} alt="" />
+          <img
+            className="image main"
+            src={petadoption_digital_wireframes}
+            alt=""
+          />
           <h3 className="major">Testing</h3>
+          <p>
+            Then an unmoderated usability study on 5 participants; 2 Males 2
+            Females and 1 non binary individual helped test Initial wireframes
+            and hi-fi prototypes. Grouping all the insights collected in
+            affinity diagrams directed to the changes that should be made in the
+            design to better improve the user experience.
+          </p>
+          <img
+            className="image main"
+            src={petadoption_affinity_diagram}
+            alt=""
+          />
           <h3>User testing results</h3>
           <p>
             The low fidelity prototype connected the primary user flow of
-            selecting and ordering snacks so the prototype could be used in a
-            usability study with the users in the next step.
+            finding pets and sending an application for adoption or request to
+            fix an appointment with the pet shelter. This prototype was used in
+            a usability study. Again with the feedback changes were made to the
+            design.
           </p>
           <p>View the prototype on link</p>
-          <img className="image main" src={snacker_lo_fi_prototype} alt="" />
-          <p>
-            I conducted two rounds of usability studies. Findings from the first
-            study helped guide the design from wireframes to mockups. Initial
-            unmoderated study online requested users to complete a few tasks on
-            the lo-fi prototype and talk through their thoughts in a recording.
-            These recordings were all analysed and I created a note taking
-            spreadsheet which helped build affinity diagrams.
-          </p>
-          <img className="image main" src={snacker_affinity_diagram} alt="" />
+          <img className="image main" src={petadoption_lofi_prototype} alt="" />
+
           <h3>Usability study findings</h3>
           <p>
+            The insights collected after the user test were;
             <ul>
-              <li>The buttons seem too small to click for most participants</li>
+              <li>Users found it hard to filter using the drop down</li>
               <li>
-                The bag at the bottom and checkout cart need to be the same
+                Users can’t easily find the progress of their adoption
+                applications
               </li>
-              <li>Split button needs to be placed in a more visual area</li>
-              <li>Simplify split features to make it easy to use</li>
+              <li>
+                During the adoption process Users have to fill the information
+                which is time consuming
+              </li>
+              <li>
+                There was no area to access templates in the next stage of
+                adopting a pet{' '}
+              </li>
+              <li>There was no way of sharing the animal with a friend</li>
             </ul>
           </p>
-          <img className="image main" src={snacker_usertest_changes} alt="" />
-          <h3>Design Systems</h3>
           <p>
-            Building a sticker sheet of the Ui elements I need in Figma was
-            helpful in creating the mock ups for the app. I used red as a
-            primary colour since it is stimulating and energizing creating the
-            urge to buy snacks.{' '}
+            I then prioritized the insights and listed the next action steps
           </p>
-          <img className="image main" src={snacker_ui_elements} alt="" />
-          <h3>Mockups and high-fidelity prototype</h3>
           <p>
-            The final high-fidelity prototype presented cleaner user flows for
-            ordering snacks and easy checkout. It also met user needs for a
-            pickup or delivery option as well as more customization according to
-            their need.{' '}
-          </p>
-          <p>View the prototype on link</p>
-          <img className="image main" src={snacker_mockup_gif} alt="" />
-          <h3>Accessibility considerations</h3>
-          <p>
-            To ensure the app was accessible I included users of assistive
-            technologies such as keyboards and screen readers throughout all
-            stages of the design cycle including in interviews and usability
-            testing. I took their needs and feedback and incorporated what I
-            learned into the designs in order to provide an inclusive and
-            accessible experience for all.
+            Priority zero cases
             <ul>
               <li>
-                I tried to provide access to users who are vision impaired
-                through adding alt text to images for screen readers.
+                Replace drop down and add filter list with all the options
               </li>
               <li>
-                I used detailed imagery of snacks to help all users better
-                understand the designs.
+                Pre-fill application form according to user account information
               </li>
-              <li>
-                Accessibility placeholder text in every button and icon was also
-                used to increase accessibility in the app
-              </li>
+            </ul>
+          </p>
+          <p>
+            Priority one cases
+            <ul>
+              <li>include a progress bar at home screen</li>
+            </ul>
+          </p>
+          <p>
+            Priority two cases
+            <ul>
+              <li>include area to access prefabricated templates</li>
+              <li>include a share in the pet card</li>
+            </ul>
+          </p>
+          <img className="image main" src={petadoption_after_changes} alt="" />
+          <p>View the prototype after the changes from user testing on link</p>
+          <h3>Mockups and high-fidelity prototype</h3>
+          <p>
+            A few A/B tests were conducted to understand if users will prefer
+            real life images or illustrations in the home screen and if they
+            prefer a slider view or collage view of seeing the images of a
+            selected pet. Participants were given both options and asked to talk
+            through and explain the screen they selected.{' '}
+          </p>
+          <img className="image main" src={petadoption_ab_testing} alt="" />
+
+          <p>View the prototype on link</p>
+          <img className="image main" src={snacker_mockup_gif} alt="" />
+          <h3>Responsive screen design</h3>
+          <p>
+            Next the screens had to adapt to the device that the user is on. So
+            the process to design how the website will appear on smaller screens
+            was initiated. The aim of this task was to have a uniform design so
+            that users feel familiar across devices and provide a smooth
+            uninterrupted experience. First up I drew all the frames in grid
+            paper.
+          </p>
+          <img className="image main" src={petadoption_ab_testing} alt="" />
+          <p>
+            Later digital screens helped test the website on different screen
+            sizes before completion of the project.
+          </p>
+          <img className="image main" src={petadoption_responsive_mockup} alt="" />
+          <h3>Accessibility considerations</h3>
+          <p>
+            The website was designed keeping in mind the Web Content
+            Accessibility Guidelines (WCAG).Accessible color and contrast was
+            used. Several ways to mark up the design to make it accessible for
+            users which was thought of were;
+            <ul>
+              <li>Navigation order annotations</li>
+              <li>Hierarchical headings</li>
+              <li>Accessibility labels for screen readers</li>
             </ul>
           </p>
           <h3 className="major">Reflection</h3>
           <p>
-            One of the biggest learnings of this project was that wireframes
-            have to be completely basic. Since I made my wireframes detailed
-            with buttons and text sizes the feedback I received was more into
-            the UI development. I wish I had a better prototype to test the
-            features and improve the user experience.
+            This project introduced me to Adobe XD. It is very similar to Figma
+            yet there are many advantages to designing user experiences in this
+            platform. I also understood extremely well on how responsive sites
+            and each screen was individually designed and the importance of
+            designing to web accessibility standards.
           </p>
 
           <section className="features">
