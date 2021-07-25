@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'gatsby';
 
 import Layout from '../../components/Layout';
 import magri_graph from '../../assets/images/project_image_govi_1.png';
@@ -11,7 +12,7 @@ import magri_frog_prototype from '../../assets/images/project_image_govi_frog_pr
 import magri_frog_inaswithcalander from '../../assets/images/project_image_govi_frog_inaswithcalander.png';
 import magri_frog_interfaceofapp from '../../assets/images/project_image_govi_frog_interfaceofapp.png';
 import magri_frog_casestudyimage from '../../assets/images/project_image_govi_casestudy_img.png';
-import magri_frog_articleimage from '../../assets/images/project_image_govi_article_img.png';
+import project_snacker_app_image from '../../assets/images/project_snacker.png';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -307,14 +308,6 @@ const IndexPage = () => (
                 href="https://www.gsma.com/mobilefordevelopment/wp-content/uploads/2017/06/govi-mithuru-mobile-agriculture-service-dialog-sri-lanka.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="image"
-              >
-                <img src={magri_frog_casestudyimage} alt="" />
-              </a>
-              <a
-                href="https://www.gsma.com/mobilefordevelopment/wp-content/uploads/2017/06/govi-mithuru-mobile-agriculture-service-dialog-sri-lanka.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
                 className="special"
               >
                 See the case study
@@ -325,18 +318,36 @@ const IndexPage = () => (
                 href="https://www.dialog.lk/govi-mithuru/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="image"
-              >
-                <img src={magri_frog_articleimage} alt="" />
-              </a>
-              <a
-                href="https://www.dialog.lk/govi-mithuru/"
-                target="_blank"
-                rel="noopener noreferrer"
                 className="special"
               >
                 Read article
               </a>
+            </article>
+          </section>
+          <section className="features">
+            <article>
+              <a
+                href="/projects/snacker-app"
+                target="_blank"
+                className="image"
+              >
+                <img src={project_snacker_app_image} alt="" />
+              </a>
+              <Link to="/projects/snacker-app" className="special">
+                Snacker App
+              </Link>
+            </article>
+            <article>
+              <a
+                href="/projects/snacker-app"
+                target="_blank"
+                className="image"
+              >
+                <img src={project_snacker_app_image} alt="" />
+              </a>
+              <Link to="/projects/snacker-app" className="special">
+                Snacker App
+              </Link>
             </article>
           </section>
         </div>
