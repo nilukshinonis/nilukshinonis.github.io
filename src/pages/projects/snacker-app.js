@@ -135,10 +135,7 @@ const IndexPage = () => (
             ideate to make the ordering of snacks seamless and fun.
           </p>
           <img className="image main" src={snacker_user_journey_map} alt="" />
-          <p>
-            User journey maps helped understand how to build the user flow and
-            ideate to make the ordering of snacks seamless and fun.
-          </p>
+          
           <h3 className="major">Ideate</h3>
 
           <h3>Sketches and wireframes</h3>

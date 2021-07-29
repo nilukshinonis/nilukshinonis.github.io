@@ -29,6 +29,8 @@ import petadoption_lofi_prototype from '../../assets/images/project_image_petado
 import petadoption_after_changes from '../../assets/images/project_image_petadoption_after_changes.png';
 import petadoption_ab_testing from '../../assets/images/project_image_petadoption_ab_testing.png';
 import petadoption_responsive_mockup from '../../assets/images/project_image_petadoption_responsive_mockup.png';
+import petadoption_scaling_wireframes from '../../assets/images/project_image_petadoption_scaling_wireframes.png';
+import petadoption_all_digital_responsive_screens from '../../assets/images/project_image_petadoption_all_digital_responsive_screens.png';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -248,22 +250,22 @@ const IndexPage = () => (
           <img className="image main" src={petadoption_ab_testing} alt="" />
 
           <p>View the prototype on link</p>
-          <img className="image main" src={snacker_mockup_gif} alt="" />
+          
           <h3>Responsive screen design</h3>
           <p>
             Next the screens had to adapt to the device that the user is on. So
             the process to design how the website will appear on smaller screens
             was initiated. The aim of this task was to have a uniform design so
             that users feel familiar across devices and provide a smooth
-            uninterrupted experience. First up I drew all the frames in grid
+            uninterrupted experience. First up I drew all the frames on grid
             paper.
           </p>
-          <img className="image main" src={petadoption_ab_testing} alt="" />
+          <img className="image main" src={petadoption_scaling_wireframes} alt="" />
           <p>
             Later digital screens helped test the website on different screen
             sizes before completion of the project.
           </p>
-          <img className="image main" src={petadoption_responsive_mockup} alt="" />
+          <img className="image main" src={petadoption_all_digital_responsive_screens} alt="" />
           <h3>Accessibility considerations</h3>
           <p>
             The website was designed keeping in mind the Web Content
@@ -276,6 +278,7 @@ const IndexPage = () => (
               <li>Accessibility labels for screen readers</li>
             </ul>
           </p>
+          <img className="image main" src={petadoption_responsive_mockup} alt="" />
           <h3 className="major">Reflection</h3>
           <p>
             This project introduced me to Adobe XD. It is very similar to Figma
@@ -284,6 +287,17 @@ const IndexPage = () => (
             and each screen was individually designed and the importance of
             designing to web accessibility standards.
           </p>
+          <div className="video-wrapper">
+            <iframe
+              title="Petadoption website flow video"
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/Zp9K9qr7jPk"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
 
           <section className="features">
             <article>

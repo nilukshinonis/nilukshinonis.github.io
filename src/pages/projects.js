@@ -11,6 +11,7 @@ import project_plasticcycle_image from '../assets/images/project_plasticycle.png
 import project_atlas_bottle_image from '../assets/images/project_atlas_bottle.png';
 import project_snacker_app_image from '../assets/images/project_snacker.png';
 import project_pet_shelter_website_image from '../assets/images/project_petshelter.png';
+import project_teenage_finance_app_image from '../assets/images/project_financeapp.png';
 
 const ProjectsPage = props => (
   <Layout fullMenu>
@@ -85,14 +86,39 @@ const ProjectsPage = props => (
                 <h3 className="major">Pet Shelter Website</h3>
               </Link>
               <p>
-                Pet shelter website is a responsive website design for a pet
-                shelter in Berlin. The website not only provides information
-                about the available animals for adoption but also provides the
-                service to fix appointments and fill paperwork at the user's
+                'Bloop' is a responsive website design for a pet shelter in
+                Berlin. The website not only provides information about the
+                available animals for adoption but also provides the service to
+                fix appointments and fill paperwork at the user's
                 convenience.
               </p>
               <Link to="/projects/pet-shelter-website" className="special">
                 See more about Pet shelter website
+              </Link>
+            </article>
+            <article>
+              <Link
+                to="/projects/teenage-finance-app-and-website/"
+                className="image"
+              >
+                <img
+                  src={project_teenage_finance_app_image}
+                  alt="Finance App for teens"
+                />
+              </Link>
+              <Link to="/projects/teenage-finance-app-and-website/">
+                <h3 className="major">Finance App for teens</h3>
+              </Link>
+              <p>‘Learn Finance’ is an interactive learning platform
+                in the form of an app and website for teenagers who need to
+                educate themselves and improve their knowledge on finance
+                learning free, so that they may become better financial adults
+                of tomorrow.</p>
+              <Link
+                to="/projects/teenage-finance-app-and-website/"
+                className="special"
+              >
+                See more about Finance App for teens
               </Link>
             </article>
             <article>
@@ -111,6 +137,7 @@ const ProjectsPage = props => (
                 See more about Viyana Quickshade
               </Link>
             </article>
+
             <article>
               <Link to="/projects/cover-me" className="image">
                 <img src={project_cover_me_image} alt="Cover Me App" />
