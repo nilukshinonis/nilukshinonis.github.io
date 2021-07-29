@@ -34,6 +34,17 @@ import petadoption_all_digital_responsive_screens from '../../assets/images/proj
 import teenagefinaceapp_design_process from '../../assets/images/project_image_teenagefinace_design_process.png';
 import teenagefinaceapp_user_persona from '../../assets/images/project_image_teenagefinance_user_persona.png';
 import teenagefinaceapp_user_story_problem_statement from '../../assets/images/project_image_teenagefinance_user_story_problem_statement.png';
+import teenagefinaceapp_digital_wireframes_first from '../../assets/images/project_image_teenagefinance_digital_wireframes_first.png';
+import teenagefinaceapp_lofi_prototype from '../../assets/images/project_image_teenagefinance_lofi_prototype.png';
+import teenagefinaceapp_after_changes_wireframes from '../../assets/images/project_image_teenagefinance_after_changes.png';
+import teenagefinaceapp_mockup from '../../assets/images/project_image_teenagefinace_mockup.png';
+import teenagefinaceapp_responsive_screens_sketch from '../../assets/images/project_image_teenagefinace_responsive_screens_sketch.png';
+import teenagefinaceapp_mobile_screens from '../../assets/images/project_image_teenagefinace_mobile_screens.png';
+import teenagefinaceapp_tab_screens from '../../assets/images/project_image_teenagefinance_tab_screens.png';
+import teenagefinaceapp_website_screens from '../../assets/images/project_image_teenagefinance_website_screens.png';
+import teenagefinaceapp_all_screens_incolour from '../../assets/images/project_image_teenagefinance_all_screens_incolour.png';
+import teenagefinaceapp_crazy_eights_sketch from '../../assets/images/project_image_teenagefinance_crazy_eights_sketch.png';
+
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -191,7 +202,7 @@ const IndexPage = () => (
 
           <img
             className="image main"
-            src={petadoption_paper_wireframes}
+            src={teenagefinaceapp_crazy_eights_sketch}
             alt=""
           />
           <h3>wireframes</h3>
@@ -204,7 +215,7 @@ const IndexPage = () => (
           </p>
           <img
             className="image main"
-            src={petadoption_paper_wireframes}
+            src={teenagefinaceapp_digital_wireframes_first}
             alt=""
           />
           <h3>Lo-fi Prototypes</h3>
@@ -217,7 +228,7 @@ const IndexPage = () => (
 
           <img
             className="image main"
-            src={petadoption_digital_wireframes}
+            src={teenagefinaceapp_lofi_prototype}
             alt=""
           />
           <h3 className="major">Testing</h3>
@@ -301,7 +312,7 @@ const IndexPage = () => (
             the buttons higher so a user with a voice assistant could navigate
             better on the app.
           </p>
-          <img className="image main" src={petadoption_lofi_prototype} alt="" />
+          <img className="image main" src={teenagefinaceapp_after_changes_wireframes} alt="" />
           <h3>Mockups and high-fidelity prototype</h3>
 
           <p>
@@ -319,7 +330,7 @@ const IndexPage = () => (
             production.
           </p>
           <p>View Prototype</p>
-          <img className="image main" src={petadoption_after_changes} alt="" />
+          <img className="image main" src={teenagefinaceapp_mockup} alt="" />
           <p>View the prototype after the changes from user testing on link</p>
           <h3>Mockups and high-fidelity prototype</h3>
           <p>
@@ -365,7 +376,7 @@ const IndexPage = () => (
           </p>
           <img
             className="image main"
-            src={petadoption_all_digital_responsive_screens}
+            src={teenagefinaceapp_responsive_screens_sketch}
             alt=""
           />
           <h3>Wireframe and lo-fi prototype- website on mobile</h3>
@@ -376,7 +387,7 @@ const IndexPage = () => (
           <p>See Mobile prototype</p>
           <img
             className="image main"
-            src={petadoption_responsive_mockup}
+            src={teenagefinaceapp_mobile_screens}
             alt=""
           />
           <h3>Wireframe and lo-fi prototype- website on tab</h3>
@@ -387,7 +398,7 @@ const IndexPage = () => (
           <p> View Prototype</p>
           <img
             className="image main"
-            src={petadoption_responsive_mockup}
+            src={teenagefinaceapp_tab_screens}
             alt=""
           />
           <h3>Wireframe and lo-fi prototype- web</h3>
@@ -398,7 +409,7 @@ const IndexPage = () => (
           <p>View website</p>
           <img
             className="image main"
-            src={petadoption_responsive_mockup}
+            src={teenagefinaceapp_website_screens}
             alt=""
           />
           <h3>Mock up and Hi-fi Prototype of responsive site</h3>
@@ -412,7 +423,7 @@ const IndexPage = () => (
           <p>View Website Prototype</p>
           <img
             className="image main"
-            src={petadoption_responsive_mockup}
+            src={teenagefinaceapp_all_screens_incolour}
             alt=""
           />
           <h3>Accessibility considerations</h3>

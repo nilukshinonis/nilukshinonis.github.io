@@ -13,6 +13,7 @@ import project_snacker_app_image from '../assets/images/project_snacker.png';
 import project_pet_shelter_website_image from '../assets/images/project_petshelter.png';
 import project_teenage_finance_app_image from '../assets/images/project_financeapp.png';
 
+
 const ProjectsPage = props => (
   <Layout fullMenu>
     <section id="wrapper">
