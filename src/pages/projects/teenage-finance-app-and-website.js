@@ -37,7 +37,7 @@ import teenagefinaceapp_user_story_problem_statement from '../../assets/images/p
 
 const IndexPage = () => (
   <Layout fullMenu>
-    <section className="wrapper-common" id="wrapper-pet-shelter-web">
+    <section className="wrapper-common" id="wrapper-teenage-finance-app">
       <header>
         <div className="inner">
           <h2>Finance Learning App and Website for Teenagers</h2>
