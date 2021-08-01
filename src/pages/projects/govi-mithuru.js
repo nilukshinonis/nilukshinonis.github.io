@@ -350,7 +350,7 @@ const IndexPage = () => (
               >
                 <img src={project_petshelter_web_image} alt="" />
               </a>
-              <Link to="/projects/snacker-app" className="special">
+              <Link to="/projects/pet-shelter-website/" className="special">
                 Pet Shelter Website
               </Link>
             </article>

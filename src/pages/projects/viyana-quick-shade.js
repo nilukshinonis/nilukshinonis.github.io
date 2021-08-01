@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'gatsby';
 
 import Layout from '../../components/Layout';
 import viyana_research from '../../assets/images/project_image_viyana_research.png';
@@ -6,6 +7,8 @@ import viyana_sketch from '../../assets/images/project_image_viyana_sketch.png';
 import viyana_joinspic from '../../assets/images/project_image_viyana_joinspic.png';
 import viyana_charithpic from '../../assets/images/project_image_viyana_charithpic.png';
 import viyana_shenalpic from '../../assets/images/project_image_viyana_shenalpic.png';
+import project_covemeapp from '../../assets/images/project_cover_me.png';
+import project_halo_image from '../../assets/images/project_halo.png';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -151,6 +154,34 @@ const IndexPage = () => (
               allowfullscreen
             ></iframe>
           </div>
+          <h3 className="major">More Projects</h3>
+          <section className="features">
+            <article>
+              <a
+                href="/projects/cover-me/"
+                target="_blank"
+                className="image"
+              >
+                <img src={project_covemeapp} alt="" />
+              </a>
+              <Link to="/projects/cover-me/" className="special">
+              Coverme App
+              </Link>
+            </article>
+            <article>
+              <a
+                href="/projects/mommy-halo/"
+                target="_blank"
+                className="image"
+              >
+                <img src={project_halo_image} alt="" />
+              </a>
+              <Link to="/projects/mommy-halo/" className="special">
+                Mommy Halo
+              </Link>
+            </article>
+          </section>
+        
         </div>
       </div>
     </section>

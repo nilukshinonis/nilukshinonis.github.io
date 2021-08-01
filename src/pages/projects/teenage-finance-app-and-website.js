@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'gatsby';
 
 import Layout from '../../components/Layout';
 
@@ -46,6 +47,8 @@ import teenagefinaceapp_all_screens_incolour from '../../assets/images/project_i
 import teenagefinaceapp_crazy_eights_sketch from '../../assets/images/project_image_teenagefinance_crazy_eights_sketch.png';
 import teenagefinaceapp_mockup_gif from '../../assets/images/project_image_teenagefinance_final_mockup.gif';
 import teenagefinaceapp_web_flow_sketch from '../../assets/images/project_image_teenagefinance_web_flow_sketch.png';
+import project_covemeapp from '../../assets/images/project_cover_me.png';
+import project_viyana_image from '../../assets/images/project_viyana.png';
 
 
 const IndexPage = () => (
@@ -444,46 +447,35 @@ const IndexPage = () => (
             and each screen was individually designed and the importance of
             designing to web accessibility standards.
           </p>
-
+          <h3 className="major">More Projects</h3>
           <section className="features">
             <article>
               <a
-                href="https://www.gsma.com/mobilefordevelopment/wp-content/uploads/2017/06/govi-mithuru-mobile-agriculture-service-dialog-sri-lanka.pdf"
+                href="/projects/viyana-quick-shade//"
                 target="_blank"
-                rel="noopener noreferrer"
                 className="image"
               >
-                <img src={magri_frog_casestudyimage} alt="" />
+                <img src={project_viyana_image} alt="" />
               </a>
-              <a
-                href="https://www.gsma.com/mobilefordevelopment/wp-content/uploads/2017/06/govi-mithuru-mobile-agriculture-service-dialog-sri-lanka.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="special"
-              >
-                See the case study
-              </a>
+              <Link to="/projects/viyana-quick-shade/" className="special">
+              Viyana Quick Shade
+              </Link>
             </article>
             <article>
               <a
-                href="https://www.dialog.lk/govi-mithuru/"
+                href="/projects/cover-me/"
                 target="_blank"
-                rel="noopener noreferrer"
                 className="image"
               >
-                <img src={magri_frog_articleimage} alt="" />
+                <img src={project_covemeapp} alt="" />
               </a>
-              <a
-                href="https://www.dialog.lk/govi-mithuru/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="special"
-              >
-                Read article
-              </a>
+              <Link to="/projects/cover-me/" className="special">
+                Coverme App
+              </Link>
             </article>
           </section>
-        </div>
+        
+          </div>
       </div>
     </section>
   </Layout>

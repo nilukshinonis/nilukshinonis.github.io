@@ -33,7 +33,7 @@ import petadoption_responsive_mockup from '../../assets/images/project_image_pet
 import petadoption_scaling_wireframes from '../../assets/images/project_image_petadoption_scaling_wireframes.png';
 import petadoption_all_digital_responsive_screens from '../../assets/images/project_image_petadoption_all_digital_responsive_screens.png';
 import project_financeapp from '../../assets/images/project_financeapp.png';
-import project_petshelter_web_image from '../../assets/images/project_petshelter.png';
+import project_viyana_image from '../../assets/images/project_viyana.png';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -305,18 +305,6 @@ const IndexPage = () => (
           <section className="features">
             <article>
               <a
-                href="/projects/pet-shelter-website/"
-                target="_blank"
-                className="image"
-              >
-                <img src={project_petshelter_web_image} alt="" />
-              </a>
-              <Link to="/projects/snacker-app" className="special">
-              Pet Shelter Website
-              </Link>
-            </article>
-            <article>
-              <a
                 href="/projects/teenage-finance-app-and-website/"
                 target="_blank"
                 className="image"
@@ -324,7 +312,19 @@ const IndexPage = () => (
                 <img src={project_financeapp} alt="" />
               </a>
               <Link to="/projects/snacker-app" className="special">
-                Finance App for Teens
+              Finance App for Teens
+              </Link>
+            </article>
+            <article>
+              <a
+                href="/projects/viyana-quick-shade/"
+                target="_blank"
+                className="image"
+              >
+                <img src={project_viyana_image} alt="" />
+              </a>
+              <Link to="/projects/snacker-app" className="special">
+                Viyana Quick Shade
               </Link>
             </article>
           </section>
