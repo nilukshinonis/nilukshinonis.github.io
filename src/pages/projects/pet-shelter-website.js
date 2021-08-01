@@ -3,20 +3,6 @@ import {Link} from 'gatsby';
 
 import Layout from '../../components/Layout';
 
-import magri_frog_casestudyimage from '../../assets/images/project_image_govi_casestudy_img.png';
-import magri_frog_articleimage from '../../assets/images/project_image_govi_article_img.png';
-import snacker_design_process_image from '../../assets/images/project_image_snacker_design_process.png';
-import snacker_pain_point_image from '../../assets/images/project_image_snacker_pain_points.png';
-import snacker_user_persona_image from '../../assets/images/project_image_snacker_user_persona.png';
-import snacker_user_flow from '../../assets/images/project_image_snacker_user_flow.png';
-import snacker_user_journey_map from '../../assets/images/project_image_snacker_user_journey_map.png';
-import snacker_paper_wireframes from '../../assets/images/project_image_snacker_paper_wireframes.png';
-import snacker_digital_wireframes from '../../assets/images/project_image_snacker_digital_wireframes.png';
-import snacker_lo_fi_prototype from '../../assets/images/project_image_snacker_lo_fi_prototype.png';
-import snacker_affinity_diagram from '../../assets/images/project_image_snacker_affinity_diagram.png';
-import snacker_usertest_changes from '../../assets/images/project_image_snacker_changes_after_user_testing.png';
-import snacker_ui_elements from '../../assets/images/project_image_snacker_ui_elements.png';
-import snacker_mockup_gif from '../../assets/images/snacker_app_mockup_.gif';
 import petadoption_design_process from '../../assets/images/project_image_petadoption_design_process.png';
 import petadoption_emapthy_map_gif from '../../assets/images/petshelter_web_emapthy_maps.gif';
 import petadoption_user_personas_gif from '../../assets/images/petadoption_user_personas.gif';
