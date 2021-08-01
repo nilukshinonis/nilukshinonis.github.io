@@ -227,7 +227,7 @@ const IndexPage = () => (
             </ul>
           </p>
           <img className="image main" src={petadoption_after_changes} alt="" />
-          <p>View the prototype after the changes from user testing on link</p>
+          
           <h3>Mockups and high-fidelity prototype</h3>
           <p>
             A few A/B tests were conducted to understand if users will prefer

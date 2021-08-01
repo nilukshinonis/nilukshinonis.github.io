@@ -1,7 +1,10 @@
 import React from 'react';
+import {Link} from 'gatsby';
 
 import Layout from '../../components/Layout';
 import mommyhalo_roleplay from '../../assets/images/project_image_mommyhalo_roleplay.png';
+import project_plasticcycle_image from '../../assets/images/project_plasticycle.png';
+import project_govimithuru_image from '../../assets/images/project_govi_mithuru.png';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -109,6 +112,34 @@ const IndexPage = () => (
               allowfullscreen
             ></iframe>
           </div>
+          <h3 className="major">More Projects</h3>
+          <section className="features">
+            <article>
+              <a
+                href="/projects/plastic-cycle/"
+                target="_blank"
+                className="image"
+              >
+                <img src={project_plasticcycle_image} alt="" />
+              </a>
+              <Link to="/projects/plastic-cycle/" className="special">
+              Plastic-cycle
+              </Link>
+            </article>
+            <article>
+              <a
+                href="/projects/govi-mithuru"
+                target="_blank"
+                className="image"
+              >
+                <img src={project_govimithuru_image} alt="" />
+              </a>
+              <Link to="/projects/govi-mithuru" className="special">
+                Govi Mithuru Service App
+              </Link>
+            </article>
+          </section>
+        
         </div>
       </div>
     </section>

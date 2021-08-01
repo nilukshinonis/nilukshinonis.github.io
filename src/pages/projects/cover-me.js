@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'gatsby';
 
 import Layout from '../../components/Layout';
 import coverme_usergroups from '../../assets/images/project_image_coverme_usergroups.png';
@@ -7,6 +8,9 @@ import coverme_storyboard from '../../assets/images/project_image_coverme_storyb
 import coverme_onboarding from '../../assets/images/project_image_coverme_onboarding.gif';
 import coverme_popupalerts from '../../assets/images/project_image_coverme_popupalerts.png';
 import coverme_graphicelements from '../../assets/images/project_image_coverme_graphicelements.png';
+import project_plasticcycle_image from '../../assets/images/project_plasticycle.png';
+import project_halo_image from '../../assets/images/project_halo.png';
+
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -132,6 +136,34 @@ const IndexPage = () => (
             Since it was a proof of concent project many changes are expected to
             take place.
           </p>
+          <h3 className="major">More Projects</h3>
+          <section className="features">
+            <article>
+              <a
+                href="/projects/mommy-halo/"
+                target="_blank"
+                className="image"
+              >
+                <img src={project_halo_image} alt="" />
+              </a>
+              <Link to="/projects/mommy-halo/" className="special">
+                Mommy Halo
+              </Link>
+            </article>
+            <article>
+              <a
+                href="/projects/plastic-cycle/"
+                target="_blank"
+                className="image"
+              >
+                <img src={project_plasticcycle_image} alt="" />
+              </a>
+              <Link to="/projects/plastic-cycle/" className="special">
+                Plastic-cycle
+              </Link>
+            </article>
+          </section>
+        
         </div>
       </div>
     </section>

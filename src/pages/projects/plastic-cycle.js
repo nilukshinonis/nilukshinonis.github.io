@@ -1,7 +1,10 @@
 import React from 'react';
+import {Link} from 'gatsby';
 
 import Layout from '../../components/Layout';
 import plasticcycle_binmaking from '../../assets/images/project_image_plasticcycle_binmaking.png';
+import project_snacker_image from '../../assets/images/project_snacker.png';
+import project_govimithuru_image from '../../assets/images/project_govi_mithuru.png';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -102,6 +105,34 @@ const IndexPage = () => (
               allowfullscreen
             ></iframe>
           </div>
+          <h3 className="major">More Projects</h3>
+          <section className="features">
+            <article>
+              <a
+                href="/projects/govi-mithuru"
+                target="_blank"
+                className="image"
+              >
+                <img src={project_govimithuru_image} alt="" />
+              </a>
+              <Link to="/projects/govi-mithuru" className="special">
+              Govi Mithuru Service App
+              </Link>
+            </article>
+            <article>
+              <a
+                href="/projects/snacker-app/"
+                target="_blank"
+                className="image"
+              >
+                <img src={project_snacker_image} alt="" />
+              </a>
+              <Link to="/projects/snacker-app/" className="special">
+                Snacker
+              </Link>
+            </article>
+          </section>
+        
         </div>
       </div>
     </section>
