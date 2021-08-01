@@ -13,6 +13,8 @@ import magri_frog_inaswithcalander from '../../assets/images/project_image_govi_
 import magri_frog_interfaceofapp from '../../assets/images/project_image_govi_frog_interfaceofapp.png';
 import magri_frog_casestudyimage from '../../assets/images/project_image_govi_casestudy_img.png';
 import project_snacker_app_image from '../../assets/images/project_snacker.png';
+import project_petshelter_web_image from '../../assets/images/project_petshelter.png';
+
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -301,6 +303,7 @@ const IndexPage = () => (
             in urban areas where information was easy to access users felt the
             service was very basic.
           </p>
+          <h3 className="major">Read More</h3>
 
           <section className="features">
             <article>
@@ -323,7 +326,9 @@ const IndexPage = () => (
                 Read article
               </a>
             </article>
+            
           </section>
+          <h3 className="major">More Projects</h3>
           <section className="features">
             <article>
               <a
@@ -339,14 +344,14 @@ const IndexPage = () => (
             </article>
             <article>
               <a
-                href="/projects/snacker-app"
+                href="/projects/pet-shelter-website/"
                 target="_blank"
                 className="image"
               >
-                <img src={project_snacker_app_image} alt="" />
+                <img src={project_petshelter_web_image} alt="" />
               </a>
               <Link to="/projects/snacker-app" className="special">
-                Snacker App
+                Pet Shelter Website
               </Link>
             </article>
           </section>

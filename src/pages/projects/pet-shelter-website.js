@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'gatsby';
 
 import Layout from '../../components/Layout';
 
@@ -31,6 +32,8 @@ import petadoption_ab_testing from '../../assets/images/project_image_petadoptio
 import petadoption_responsive_mockup from '../../assets/images/project_image_petadoption_responsive_mockup.png';
 import petadoption_scaling_wireframes from '../../assets/images/project_image_petadoption_scaling_wireframes.png';
 import petadoption_all_digital_responsive_screens from '../../assets/images/project_image_petadoption_all_digital_responsive_screens.png';
+import project_financeapp from '../../assets/images/project_financeapp.png';
+import project_petshelter_web_image from '../../assets/images/project_petshelter.png';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -298,46 +301,35 @@ const IndexPage = () => (
               allowfullscreen
             ></iframe>
           </div>
-
+          <h3 className="major">More Projects</h3>
           <section className="features">
             <article>
               <a
-                href="https://www.gsma.com/mobilefordevelopment/wp-content/uploads/2017/06/govi-mithuru-mobile-agriculture-service-dialog-sri-lanka.pdf"
+                href="/projects/pet-shelter-website/"
                 target="_blank"
-                rel="noopener noreferrer"
                 className="image"
               >
-                <img src={magri_frog_casestudyimage} alt="" />
+                <img src={project_petshelter_web_image} alt="" />
               </a>
-              <a
-                href="https://www.gsma.com/mobilefordevelopment/wp-content/uploads/2017/06/govi-mithuru-mobile-agriculture-service-dialog-sri-lanka.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="special"
-              >
-                See the case study
-              </a>
+              <Link to="/projects/snacker-app" className="special">
+              Pet Shelter Website
+              </Link>
             </article>
             <article>
               <a
-                href="https://www.dialog.lk/govi-mithuru/"
+                href="/projects/teenage-finance-app-and-website/"
                 target="_blank"
-                rel="noopener noreferrer"
                 className="image"
               >
-                <img src={magri_frog_articleimage} alt="" />
+                <img src={project_financeapp} alt="" />
               </a>
-              <a
-                href="https://www.dialog.lk/govi-mithuru/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="special"
-              >
-                Read article
-              </a>
+              <Link to="/projects/snacker-app" className="special">
+                Finance App for Teens
+              </Link>
             </article>
           </section>
-        </div>
+        
+          </div>
       </div>
     </section>
   </Layout>

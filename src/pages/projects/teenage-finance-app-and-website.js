@@ -36,7 +36,7 @@ import teenagefinaceapp_user_persona from '../../assets/images/project_image_tee
 import teenagefinaceapp_user_story_problem_statement from '../../assets/images/project_image_teenagefinance_user_story_problem_statement.png';
 import teenagefinaceapp_digital_wireframes_first from '../../assets/images/project_image_teenagefinance_digital_wireframes_first.png';
 import teenagefinaceapp_lofi_prototype from '../../assets/images/project_image_teenagefinance_lofi_prototype.png';
-import teenagefinaceapp_after_changes_wireframes from '../../assets/images/project_image_teenagefinance_after_changes.png';
+import teenagefinaceapp_after_changes_wireframes_gif from '../../assets/images/project_image_teenagefinance_lofi_wireframes_afterchanges.gif';
 import teenagefinaceapp_mockup from '../../assets/images/project_image_teenagefinace_mockup.png';
 import teenagefinaceapp_responsive_screens_sketch from '../../assets/images/project_image_teenagefinace_responsive_screens_sketch.png';
 import teenagefinaceapp_mobile_screens from '../../assets/images/project_image_teenagefinace_mobile_screens.png';
@@ -44,6 +44,8 @@ import teenagefinaceapp_tab_screens from '../../assets/images/project_image_teen
 import teenagefinaceapp_website_screens from '../../assets/images/project_image_teenagefinance_website_screens.png';
 import teenagefinaceapp_all_screens_incolour from '../../assets/images/project_image_teenagefinance_all_screens_incolour.png';
 import teenagefinaceapp_crazy_eights_sketch from '../../assets/images/project_image_teenagefinance_crazy_eights_sketch.png';
+import teenagefinaceapp_mockup_gif from '../../assets/images/project_image_teenagefinance_final_mockup.gif';
+import teenagefinaceapp_web_flow_sketch from '../../assets/images/project_image_teenagefinance_web_flow_sketch.png';
 
 
 const IndexPage = () => (
@@ -258,7 +260,7 @@ const IndexPage = () => (
           </p>
           <img
             className="image main"
-            src={petadoption_affinity_diagram}
+            src={teenagefinaceapp_after_changes_wireframes_gif}
             alt=""
           />
           <h3>User testing results</h3>
@@ -312,7 +314,7 @@ const IndexPage = () => (
             the buttons higher so a user with a voice assistant could navigate
             better on the app.
           </p>
-          <img className="image main" src={teenagefinaceapp_after_changes_wireframes} alt="" />
+
           <h3>Mockups and high-fidelity prototype</h3>
 
           <p>
@@ -329,19 +331,14 @@ const IndexPage = () => (
             the stakeholders and then passed off to the Development Team for
             production.
           </p>
+          <img
+            className="image main"
+            src={teenagefinaceapp_mockup_gif}
+            alt=""
+          />
           <p>View Prototype</p>
           <img className="image main" src={teenagefinaceapp_mockup} alt="" />
-          <p>View the prototype after the changes from user testing on link</p>
-          <h3>Mockups and high-fidelity prototype</h3>
-          <p>
-            A few A/B tests were conducted to understand if users will prefer
-            real life images or illustrations in the home screen and if they
-            prefer a slider view or collage view of seeing the images of a
-            selected pet. Participants were given both options and asked to talk
-            through and explain the screen they selected.{' '}
-          </p>
-          <img className="image main" src={petadoption_ab_testing} alt="" />
-          <p>View the prototype on link</p>
+
           <h3>Designing a responsive web</h3>
           <p>
             The purpose of the dedicated mobile app was to get tenagers flexibly
@@ -363,11 +360,12 @@ const IndexPage = () => (
           <p>
             We again sketched out some concepts for our website’s design based
             on what we learnt about our users in the empathize stage using the
-            crazy eights approach.{' '}
+            crazy eights approach. Then the basic user flow for the web
+            application was sketched.
           </p>
           <img
             className="image main"
-            src={petadoption_scaling_wireframes}
+            src={teenagefinaceapp_web_flow_sketch}
             alt=""
           />
           <p>
@@ -436,13 +434,8 @@ const IndexPage = () => (
             accessible experience for all. The website was designed keeping in
             mind the Web Content Accessibility Guidelines (WCAG).Accessible
             color and contrast was used.
-            
           </p>
-          <img
-            className="image main"
-            src={petadoption_responsive_mockup}
-            alt=""
-          />
+          
           <h3 className="major">Reflection</h3>
           <p>
             This project introduced me to Adobe XD. It is very similar to Figma
@@ -451,17 +444,7 @@ const IndexPage = () => (
             and each screen was individually designed and the importance of
             designing to web accessibility standards.
           </p>
-          <div className="video-wrapper">
-            <iframe
-              title="Petadoption website flow video"
-              width="560"
-              height="315"
-              src="https://www.youtube.com/embed/Zp9K9qr7jPk"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
+
           <section className="features">
             <article>
               <a

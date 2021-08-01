@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'gatsby';
 
 import Layout from '../../components/Layout';
 import magri_frog_wireframe from '../../assets/images/project_image_govi_frog_wireframe.png';
@@ -19,6 +20,8 @@ import snacker_affinity_diagram from '../../assets/images/project_image_snacker_
 import snacker_usertest_changes from '../../assets/images/project_image_snacker_changes_after_user_testing.png';
 import snacker_ui_elements from '../../assets/images/project_image_snacker_ui_elements.png';
 import snacker_mockup_gif from '../../assets/images/snacker_app_mockup_.gif';
+import project_financeapp from '../../assets/images/project_financeapp.png';
+import project_petshelter_web_image from '../../assets/images/project_petshelter.png';
 
 const IndexPage = () => (
   <Layout fullMenu>
@@ -135,7 +138,7 @@ const IndexPage = () => (
             ideate to make the ordering of snacks seamless and fun.
           </p>
           <img className="image main" src={snacker_user_journey_map} alt="" />
-          
+
           <h3 className="major">Ideate</h3>
 
           <h3>Sketches and wireframes</h3>
@@ -239,48 +242,34 @@ const IndexPage = () => (
             the UI development. I wish I had a better prototype to test the
             features and improve the user experience.
           </p>
-
-          
-          
-            
+          <h3 className="major">More Projects</h3>
           <section className="features">
             <article>
               <a
-                href="https://www.gsma.com/mobilefordevelopment/wp-content/uploads/2017/06/govi-mithuru-mobile-agriculture-service-dialog-sri-lanka.pdf"
+                href="/projects/pet-shelter-website/"
                 target="_blank"
-                rel="noopener noreferrer"
                 className="image"
               >
-                <img src={magri_frog_casestudyimage} alt="" />
+                <img src={project_petshelter_web_image} alt="" />
               </a>
-              <a
-                href="https://www.gsma.com/mobilefordevelopment/wp-content/uploads/2017/06/govi-mithuru-mobile-agriculture-service-dialog-sri-lanka.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="special"
-              >
-                See the case study
-              </a>
+              <Link to="/projects/snacker-app" className="special">
+              Pet Shelter Website
+              </Link>
             </article>
             <article>
               <a
-                href="https://www.dialog.lk/govi-mithuru/"
+                href="/projects/teenage-finance-app-and-website/"
                 target="_blank"
-                rel="noopener noreferrer"
                 className="image"
               >
-                <img src={magri_frog_articleimage} alt="" />
+                <img src={project_financeapp} alt="" />
               </a>
-              <a
-                href="https://www.dialog.lk/govi-mithuru/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="special"
-              >
-                Read article
-              </a>
+              <Link to="/projects/snacker-app" className="special">
+                Finance App for Teens
+              </Link>
             </article>
           </section>
+        
         </div>
       </div>
     </section>
