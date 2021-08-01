@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link, graphql} from 'gatsby';
+import { Link, graphql } from 'gatsby';
 import Img from 'gatsby-image';
 import Layout from '../components/Layout';
 
@@ -7,11 +7,10 @@ import icon from '../assets/images/website-icon.png';
 
 import config from '../../config';
 
+const noniscooks = 'https://www.instagram.com/noniscooks/';
+const nn_handmadefabric = 'https://www.instagram.com/nn_handmadefabric/';
 
-const noniscooks = "https://www.instagram.com/noniscooks/";
-const nn_handmadefabric = "https://www.instagram.com/nn_handmadefabric/";
-
-const IndexPage = (props) => (
+const IndexPage = props => (
   <Layout>
     <section id="banner">
       <div className="inner">
@@ -19,7 +18,12 @@ const IndexPage = (props) => (
           <img className="icon" src={icon} alt="" />
         </div>
         <h2>{config.heading}</h2>
-        <p>{config.subHeading}</p>
+        {/* <p>{config.subHeading}</p> */}
+        <p id="fade-in-container">
+          <span class="fade-in-text">Product Designer</span>
+          <span class="fade-in-text">User Experience Designer</span>
+          <span class="fade-in-text">Entrepreneur</span>
+        </p>
       </div>
     </section>
 
@@ -63,8 +67,19 @@ const IndexPage = (props) => (
           <div className="content">
             <h2 className="major">When I don’t have my design cap on</h2>
             <p>
-              I <a href={noniscooks} target="_blank" rel="noopener noreferrer">cook</a> , knit, sew, lecture 
-              and even have my own <a href={nn_handmadefabric} target="_blank" rel="noopener noreferrer">tie and dye brand</a>.
+              I{' '}
+              <a href={noniscooks} target="_blank" rel="noopener noreferrer">
+                cook
+              </a>{' '}
+              , knit, sew, lecture and even have my own{' '}
+              <a
+                href={nn_handmadefabric}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                tie and dye brand
+              </a>
+              .
             </p>
             <Link href="/about" className="special">
               Contact me
@@ -79,13 +94,13 @@ const IndexPage = (props) => (
 export default IndexPage;
 
 export const fluidImage = graphql`
-fragment fluidImage on File {
-  childImageSharp {
-    fluid(maxWidth: 1000) {
-      ...GatsbyImageSharpFluid_withWebp
+  fragment fluidImage on File {
+    childImageSharp {
+      fluid(maxWidth: 1000) {
+        ...GatsbyImageSharpFluid_withWebp
+      }
     }
   }
-}
 `;
 
 export const pageQuery = graphql`
@@ -100,4 +115,4 @@ export const pageQuery = graphql`
       ...fluidImage
     }
   }
-`
+`;
