@@ -176,7 +176,12 @@ const IndexPage = () => (
             a usability study. Again with the feedback changes were made to the
             design.
           </p>
-          <p>View the prototype on link</p>
+          <p>View the prototype on <a 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            href="https://xd.adobe.com/view/288ab3c2-15a5-4f41-bfd8-5f4bb80a8ef7-7dd9/?fullscreen">
+              link
+            </a></p>
           <img className="image main" src={petadoption_lofi_prototype} alt="" />
 
           <h3>Usability study findings</h3>
@@ -238,7 +243,12 @@ const IndexPage = () => (
           </p>
           <img className="image main" src={petadoption_ab_testing} alt="" />
 
-          <p>View the prototype on link</p>
+          <p>View the prototype on <a 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            href="https://xd.adobe.com/view/ed29bbab-fedb-4c15-b5e5-d7f57ce37c78-b87a/?fullscreen">
+              link
+            </a></p>
           
           <h3>Responsive screen design</h3>
           <p>

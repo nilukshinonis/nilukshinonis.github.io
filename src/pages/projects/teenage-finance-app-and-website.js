@@ -229,7 +229,12 @@ const IndexPage = () => (
             learning so the prototype could be used in a usability study with
             the users.
           </p>
-          <p>View the prototype on link</p>
+          <p>View the prototype on <a 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            href="https://xd.adobe.com/view/213ed1cd-8699-480d-8ea7-32c0e1f029e2-746d/?fullscreen">
+              link
+            </a></p>
 
           <img
             className="image main"
@@ -317,7 +322,11 @@ const IndexPage = () => (
             the buttons higher so a user with a voice assistant could navigate
             better on the app.
           </p>
-
+          <img
+            className="image main"
+            src={teenagefinaceapp_mockup_gif}
+            alt=""
+          />
           <h3>Mockups and high-fidelity prototype</h3>
 
           <p>
@@ -334,12 +343,13 @@ const IndexPage = () => (
             the stakeholders and then passed off to the Development Team for
             production.
           </p>
-          <img
-            className="image main"
-            src={teenagefinaceapp_mockup_gif}
-            alt=""
-          />
-          <p>View Prototype</p>
+          
+          <p><a 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            href="https://xd.adobe.com/view/eb7d5c13-b0ff-4618-9260-2f12036b0f6f-be2e/?fullscreen">
+              View Prototype
+            </a></p>
           <img className="image main" src={teenagefinaceapp_mockup} alt="" />
 
           <h3>Designing a responsive web</h3>
@@ -385,7 +395,12 @@ const IndexPage = () => (
             The next step of the process was to design the mobile screen of the
             app.
           </p>
-          <p>See Mobile prototype</p>
+          <p>See <a 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            href="https://xd.adobe.com/view/425b0abb-615b-49d6-b153-443f349e3c66-1708/?fullscreen">
+              Mobile prototype
+            </a></p>
           <img
             className="image main"
             src={teenagefinaceapp_mobile_screens}
@@ -396,7 +411,12 @@ const IndexPage = () => (
             Then the website on a tablet screen and its main user journey was
             digitally wireframes and prototyped.
           </p>
-          <p> View Prototype</p>
+          <p> <a 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            href="https://xd.adobe.com/view/c3bc99e8-89ef-458d-812b-5c2fea267e3a-96ef/?fullscreen">
+              View Prototype
+            </a></p>
           <img
             className="image main"
             src={teenagefinaceapp_tab_screens}
@@ -407,7 +427,12 @@ const IndexPage = () => (
             Then the layouts of the website on the biggest screen size were
             designed and prototyped.
           </p>
-          <p>View website</p>
+          <p><a 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            href="https://xd.adobe.com/view/b092f30c-fa17-411f-8b52-f3ca20730073-e5c1/?fullscreen">
+              View website
+            </a></p>
           <img
             className="image main"
             src={teenagefinaceapp_website_screens}
@@ -421,7 +446,12 @@ const IndexPage = () => (
             to keep up with consistency between the design language of the app
             and website.
           </p>
-          <p>View Website Prototype</p>
+          <p><a 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            href="https://xd.adobe.com/view/81e9d92e-c186-4a73-8c02-5434b0beb68e-d4ba/?fullscreen">
+              View Website Prototype
+            </a></p>
           <img
             className="image main"
             src={teenagefinaceapp_all_screens_incolour}

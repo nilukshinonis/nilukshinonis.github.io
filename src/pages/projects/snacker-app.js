@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'gatsby';
+import { Link } from 'gatsby';
 
 import Layout from '../../components/Layout';
 import magri_frog_wireframe from '../../assets/images/project_image_govi_frog_wireframe.png';
@@ -171,7 +171,15 @@ const IndexPage = () => (
             selecting and ordering snacks so the prototype could be used in a
             usability study with the users in the next step.
           </p>
-          <p>View the prototype on link</p>
+          <p>
+            View the prototype on{' '}
+            <a 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            href="https://www.figma.com/proto/hAvslXNd66HOpAYXyir6AM/google-ux?node-id=17%3A1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=17%3A1&show-proto-sidebar=1">
+              link
+            </a>{' '}
+          </p>
           <img className="image main" src={snacker_lo_fi_prototype} alt="" />
           <p>
             I conducted two rounds of usability studies. Findings from the first
@@ -209,7 +217,12 @@ const IndexPage = () => (
             pickup or delivery option as well as more customization according to
             their need.{' '}
           </p>
-          <p>View the prototype on link</p>
+          <p>View the prototype on <a 
+            target="_blank" 
+            rel="noopener noreferrer" 
+            href="https://www.figma.com/proto/hAvslXNd66HOpAYXyir6AM/google-ux?node-id=252%3A684&scaling=scale-down&page-id=252%3A46&starting-point-node-id=252%3A684">
+              link
+            </a></p>
           <img className="image main" src={snacker_mockup_gif} alt="" />
           <h3>Accessibility considerations</h3>
           <p>
@@ -253,7 +266,7 @@ const IndexPage = () => (
                 <img src={project_petshelter_web_image} alt="" />
               </a>
               <Link to="/projects/pet-shelter-website/" className="special">
-              Pet Shelter Website
+                Pet Shelter Website
               </Link>
             </article>
             <article>
@@ -264,12 +277,14 @@ const IndexPage = () => (
               >
                 <img src={project_financeapp} alt="" />
               </a>
-              <Link to="/projects/teenage-finance-app-and-website/" className="special">
+              <Link
+                to="/projects/teenage-finance-app-and-website/"
+                className="special"
+              >
                 Finance App for Teens
               </Link>
             </article>
           </section>
-        
         </div>
       </div>
     </section>
