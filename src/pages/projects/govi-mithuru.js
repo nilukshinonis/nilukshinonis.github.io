@@ -41,14 +41,22 @@ const IndexPage = () => (
 
           <h3 className="major">The Team</h3>
           <p>
-            Lilian Tse ( Program Manager, Frog), Alvero Marquez (Creative
-            Director, Frog) , Inas Jenabdeen ( Product Engineer, Dialog),
-            Sathyan Velumani (Ux Designer, Dialog), Victoria Clause (Market
-            Engagement Manager, GSMA), Hiroshan Weerawardena ( Student
-            Participation ) Funded by GSMA mAgri. Content by the Ministry of
-            Agriculture of the Government of Sri Lanka, the Centre for
-            Agriculture and Biosciences International, Ministry of Health,
-            Nutrition &amp; Indigenous Medicine of the Government of Sri Lanka.
+            <li>Lilian Tse ( Program Manager, Frog)</li>
+             <li>Alvero Marquez (Creative
+            Director, Frog) </li>
+            <li>Inas Jenabdeen ( Product Engineer, Dialog)</li>
+            <li>Sathyan Velumani (Ux Designer, Dialog)</li>
+            <li> Victoria Clause (Market
+            Engagement Manager, GSMA)</li>
+            <li> Hiroshan Weerawardena ( Student
+            Participation )</li>
+            <li> Funded by GSMA mAgri</li>
+            <li> Content by the Ministry of
+            Agriculture of the Government of Sri Lanka</li>
+            <li>the Centre for
+            Agriculture and Biosciences International</li> 
+            <li>Ministry of Health,
+            Nutrition &amp; Indigenous Medicine of the Government of Sri Lanka.</li> 
           </p>
 
           <h3 className="major">My Role</h3>
