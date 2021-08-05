@@ -53,14 +53,22 @@ const IndexPage = () => (
           </p>
           <h3 className="major">The Team</h3>
           <p>
-            Lee Bazalgette ( Director, Colombo Design Studio(CDS)),Ruwini Perera
-            ( Operations Manager, CDS),Leah Marikkar (Director, Dentsu Aegis
-            Network)Menusha Bennett ( Industrial Designer CDS), Clemens Thieler
-            ( Intern, CDS), Buddhika Muthukumarana (General Manager,Viridis
-            Plastic Recycling), Nisreen Rahmanjee( Head of Social
-            Entrepreneurship Project, John Keells Group),Monaka Perumal( Brand
-            manager, Dentsu Aegis Network), Jayananda Kalpana( Manufacturer,
-            KALPANA ADS (PVT) LTD)
+            <li>Lee Bazalgette ( Director, Colombo Design Studio(CDS)</li>
+            <li>Ruwini Perera
+            ( Operations Manager, CDS)</li>
+            <li>Leah Marikkar (Director, Dentsu Aegis
+            Network)</li>
+            <li>Menusha Bennett ( Industrial Designer CDS)</li>
+            <li>Clemens Thieler
+            ( Intern, CDS)</li> 
+            <li>Buddhika Muthukumarana (General Manager,Viridis
+            Plastic Recycling)</li> 
+            <li>Nisreen Rahmanjee( Head of Social
+            Entrepreneurship Project, John Keells Group)</li> 
+            <li>Monaka Perumal( Brand
+            manager, Dentsu Aegis Network)</li>
+            <li>Jayananda Kalpana( Manufacturer,
+            KALPANA ADS (PVT) LTD)</li> 
           </p>
           <h3 className="major">My Role</h3>
           <p>

@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'gatsby';
+import { Link } from 'gatsby';
 
 import Layout from '../../components/Layout';
 import mommyhalo_roleplay from '../../assets/images/project_image_mommyhalo_roleplay.png';
@@ -49,13 +49,18 @@ const IndexPage = () => (
 
           <h3 className="major">The Team</h3>
           <p>
-            Lee Bazalgette ( Director, Colombo Design Studio(CDS)),Ruwini Perera
-            ( Operations Manager, CDS) Menusha Bennett ( Industrial Designer
-            CDS), Shafeek Akil ( Student Engineer, CDS), Anthony Ayers( Owner,
-            Baby Assured), Robin Ayers ( Co-Owner, Baby Assured), Buddhi
-            Paranamana(Project Manager, Hela Innovation)Malveena Jayawardena
-            (Executive, Hela Innovation), Michelle Balapitya ( Executive, Hela
-            Innovation)
+            <li>Lee Bazalgette ( Director, Colombo Design Studio(CDS)</li>
+            <li>Ruwini Perera ( Operations Manager, (CDS)</li>
+            <li>Menusha Bennett (
+            Industrial Designer CDS)</li> 
+            <li>Shafeek Akil ( Student Engineer, CDS)</li> 
+            <li>Anthony Ayers( Owner, Baby Assured)</li>
+            <li> Robin Ayers ( Co-Owner, Baby
+            Assured)</li>
+            <li>Buddhi Paranamana(Project Manager, Hela
+            Innovation)</li>
+            <li> Malveena Jayawardena (Executive, Hela Innovation)</li>
+            <li>Michelle Balapitya ( Executive, Hela Innovation)</li>
           </p>
           <h3 className="major">My Role</h3>
           <p>
@@ -71,13 +76,12 @@ const IndexPage = () => (
           <img className="image main" src={mommyhalo_roleplay} alt="" />
           <h3 className="major">The Approach</h3>
           <p>
-          We worked extensively for 14
-            months to deliver a working prototype, including extensive testing
-            and quality assurance. We started with a little bit of role playing
-            in the studio and later gathered insights from concerned mothers.
-            Our design splints of creating quick and rudimentary ideas
-            ultimately ended up in the final design of the donut shaped
-            ergonomic design that adjusts with growing bellies.
+            We worked extensively for 14 months to deliver a working prototype,
+            including extensive testing and quality assurance. We started with a
+            little bit of role playing in the studio and later gathered insights
+            from concerned mothers. Our design splints of creating quick and
+            rudimentary ideas ultimately ended up in the final design of the
+            donut shaped ergonomic design that adjusts with growing bellies.
           </p>
           <p>
             The final design is a wireless,portable, incredibly comfortable
@@ -123,7 +127,7 @@ const IndexPage = () => (
                 <img src={project_plasticcycle_image} alt="" />
               </a>
               <Link to="/projects/plastic-cycle/" className="special">
-              Plastic-cycle
+                Plastic-cycle
               </Link>
             </article>
             <article>
@@ -139,7 +143,6 @@ const IndexPage = () => (
               </Link>
             </article>
           </section>
-        
         </div>
       </div>
     </section>
