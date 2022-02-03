@@ -4,14 +4,12 @@
 name: Build
 
 on:
-  pull_request:
+  push:
     branches: [ develop ]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
     strategy:
       matrix:
         node-version: [14.x]
@@ -24,5 +22,5 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm i
-    - run: npm run build
+    - run: npm ci
+    - run: npm run deploy
