@@ -36,8 +36,7 @@ const IndexPage = props => (
           <div className="content">
             <h2 className="major">I think</h2>
             <p>
-              Design has to be honest, delightful and less harmful to the
-              environment.
+              Design has to be honest, delightful and sustainable
             </p>
             <Link to="/projects" className="special">
               See my work
