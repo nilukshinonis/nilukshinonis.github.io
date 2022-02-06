@@ -22,7 +22,7 @@ const IndexPage = props => (
         <p id="fade-in-container">
           <span class="fade-in-text">Product Designer</span>
           <span class="fade-in-text">User Experience Designer</span>
-          <span class="fade-in-text">Entrepreneur</span>
+          <span class="fade-in-text">User Interface Designer</span>
         </p>
       </div>
     </section>
