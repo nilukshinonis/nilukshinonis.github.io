@@ -41,7 +41,7 @@
   "devDependencies": {
     "gh-pages": "^4.0.0",
     "prettier": "^2.6.1",
-    "rimraf": "^3.0.2"
+    "rimraf": "^4.0.4"
   },
   "license": "MIT",
   "homepage": "https://nilukshinonis.com"
