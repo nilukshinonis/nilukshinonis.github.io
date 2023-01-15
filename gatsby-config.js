@@ -31,16 +31,6 @@ module.exports = {
     },
     'gatsby-plugin-sass',
     'gatsby-plugin-offline',
-    {
-      resolve: `gatsby-plugin-advanced-sitemap`,
-      options: {
-        createLinkInHead: true,
-        exclude: [
-          `/components`,
-          /(\/)*404*/,
-          `/offline-plugin-app-shell-fallback`,
-        ]
-      }
-    },
+    'gatsby-plugin-sitemap'
   ],
 };
