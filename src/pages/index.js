@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
-import Img from 'gatsby-image';
+import { GatsbyImage } from "gatsby-plugin-image";
 import Layout from '../components/Layout';
 
 import icon from '../assets/images/website-icon.png';
@@ -31,7 +31,7 @@ const IndexPage = props => (
       <section id="one" className="wrapper spotlight style1">
         <div className="inner">
           <Link to="/projects" className="image">
-            <Img fluid={props.data.frame_2.childImageSharp.fluid} />
+            <GatsbyImage fluid={props.data.frame_2.childImageSharp.fluid} />
           </Link>
           <div className="content">
             <h2 className="major">I think</h2>
@@ -47,7 +47,7 @@ const IndexPage = props => (
       <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
           <Link to="/about" className="image">
-            <Img fluid={props.data.frame_1.childImageSharp.fluid} />
+            <GatsbyImage fluid={props.data.frame_1.childImageSharp.fluid} />
           </Link>
           <div className="content">
             <h2 className="major">I love to explore</h2>
@@ -61,7 +61,7 @@ const IndexPage = props => (
       <section id="three" className="wrapper spotlight style3">
         <div className="inner">
           <Link to="/about" className="image">
-            <Img fluid={props.data.frame_3.childImageSharp.fluid} />
+            <GatsbyImage fluid={props.data.frame_3.childImageSharp.fluid} />
           </Link>
           <div className="content">
             <h2 className="major">When I don’t have my design cap on</h2>

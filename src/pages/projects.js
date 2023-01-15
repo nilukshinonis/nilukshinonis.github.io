@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, graphql } from 'gatsby';
-import Img from 'gatsby-image';
+import { GatsbyImage } from "gatsby-plugin-image";
 
 import Layout from '../components/Layout';
 import project_govi_mithuru_image from '../assets/images/project_govi_mithuru.png';
