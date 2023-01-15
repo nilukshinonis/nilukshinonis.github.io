@@ -31,7 +31,7 @@ const IndexPage = props => (
       <section id="one" className="wrapper spotlight style1">
         <div className="inner">
           <Link to="/projects" className="image">
-            <GatsbyImage fluid={props.data.frame_2.childImageSharp.fluid} />
+            <GatsbyImage image={props.data.frame_2.childImageSharp.gatsbyImageData} />
           </Link>
           <div className="content">
             <h2 className="major">I think</h2>
@@ -47,7 +47,7 @@ const IndexPage = props => (
       <section id="two" className="wrapper alt spotlight style2">
         <div className="inner">
           <Link to="/about" className="image">
-            <GatsbyImage fluid={props.data.frame_1.childImageSharp.fluid} />
+            <GatsbyImage image={props.data.frame_1.childImageSharp.gatsbyImageData} />
           </Link>
           <div className="content">
             <h2 className="major">I love to explore</h2>
@@ -61,7 +61,7 @@ const IndexPage = props => (
       <section id="three" className="wrapper spotlight style3">
         <div className="inner">
           <Link to="/about" className="image">
-            <GatsbyImage fluid={props.data.frame_3.childImageSharp.fluid} />
+            <GatsbyImage image={props.data.frame_3.childImageSharp.gatsbyImageData} />
           </Link>
           <div className="content">
             <h2 className="major">When I don’t have my design cap on</h2>
@@ -92,15 +92,11 @@ const IndexPage = props => (
 
 export default IndexPage;
 
-export const fluidImage = graphql`
-  fragment fluidImage on File {
-    childImageSharp {
-      fluid(maxWidth: 1000) {
-        ...GatsbyImageSharpFluid_withWebp
-      }
-    }
+export const fluidImage = graphql`fragment fluidImage on File {
+  childImageSharp {
+    gatsbyImageData(layout: FULL_WIDTH)
   }
-`;
+}`;
 
 export const pageQuery = graphql`
   query {
