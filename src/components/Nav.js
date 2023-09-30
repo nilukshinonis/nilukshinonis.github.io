@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import cv from '../../static/CV_Nilukshi_Nonis.pdf';
+import cv from '../../static/CV_Nilukshi_Nonis_202306.pdf';
 
 export default function Nav({ onMenuToggle = () => {} }) {
   return (

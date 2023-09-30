@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 import ContactForm from '../components/ContactForm';
-import cv from '../../static/CV_Nilukshi_Nonis.pdf';
+import cv from '../../static/CV_Nilukshi_Nonis_202306.pdf';
 
 const cvStyle = {
   color: '#f28580',
